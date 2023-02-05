@@ -139,325 +139,349 @@
     <div class="container mb-5">
         <!-- 輪播、焦點訊息 -->
         <section>
-            <div class="row my-1 my-md-5">
-                <div class="nz-banner col-md-7 mb-5">
-                    <!-- index_banner begin -->
-                    <div w3-include-html="index_banner.html" id="bannerCarousel" class="nz-carousel carousel slide carousel-fade" data-ride="carousel" data-interval="5000"></div>
-                    <script>
-                        includeHTML();
-                    </script>
-                    <!-- index_banner end -->
-                </div>
-                <div class="col-md-5">
-                    <h1 class="nz-title nz-primary mb-4">焦點訊息</h1>
-                    <div id="divInfo1Box">
-                    </div>
-                    <!-- 更多 -->
-                    <div class="text-right mt-lg-0 mt-3">
-                        <!-- TODO: url -->
-                        <a href="news.html" title="檢視更多焦點訊息">
-                            <button class="btn nz-btn nz-btn-primary" id="btnInfo1more">更 多</button>
-                        </a>
-                    </div>
+          <div class="row my-1 my-md-5">
+              <div class="col-md-4">
+                <h1 class="nz-title nz-primary mb-4">生技醫藥領域</h1>
+                <div id="divInfo1Box" class="nz-desc">
+                  工研院產業學院-生技醫藥領域提供您最專業的培訓，完整規劃醫藥產業、醫療器材產業以及應用生技產業所需具備之專業技術培訓。此外，工研院獨家打造生技醫藥模組化學習地圖，帶領您完成基礎到進階的學習規劃，並且提供多元學習模式，全數位課程、線上直播課程與實體課程，滿足您不同的學習需求，提供您最棒的學習體驗。
                 </div>
             </div>
+              <div class="nz-banner col-md-8 mb-5">
+                  <!-- index_banner begin -->
+                  <div w3-include-html="index_banner.html" id="bannerCarousel" class="nz-carousel carousel slide carousel-fade" data-ride="carousel" data-interval="5000"></div>
+                  <script>
+                      includeHTML();
+                  </script>
+                  <!-- index_banner end -->
+              </div>
+          </div>
         </section>
-         <section>
+        <section>
             <!-- Tab 卡片 -->
-  <div class="container my-5">
-    <h1 class="nz-title nz-primary my-4"><i class="fas fa-bolt"></i> 課程目錄</h1>
-    <ul class="pow-card-nav nav nav-tabs" id="cardTab" role="tablist">
-      <li class="nav-item">
-        <a class="nav-link active" id="card-tab-1" data-toggle="tab" href="#card-1" role="tab" aria-controls="card-1" aria-selected="true">智慧醫療影像辨識技術
-</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" id="card-tab-2" data-toggle="tab" href="#card-2" role="tab" aria-controls="card-2" aria-selected="false">精準健康產品開發/
-GMP品質管制系統
-</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" id="card-tab-3" data-toggle="tab" href="#card-3" role="tab" aria-controls="card-3" aria-selected="false">數位自學課程
-</a>
-      </li>
-     
-    </ul>
-    <div class="tab-content" id="cardTabContent">
-      <!-- 卡片 tab-1 -->
-      <div class="tab-pane fade show active" id="card-1" role="tabpanel" aria-labelledby="card-tab-1">
-        <div class="row">
-          <div class="col-md-6 col-lg-4 my-4">
-            <div class="pow-card">
-              <a href="#">
-                <div class="pow-card-top-img">
-                  <img src="img/example/img-1.JPG">
+            <div class="my-5">
+              <h1 class="nz-title nz-primary my-4">課程目錄</h1>
+              <ul class="pow-card-nav nav nav-tabs" id="cardTab" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link active" id="card-tab-1" data-toggle="tab" href="#card-1" role="tab" aria-controls="card-1" aria-selected="true">智慧醫療影像辨識技術</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="card-tab-2" data-toggle="tab" href="#card-2" role="tab" aria-controls="card-2" aria-selected="false">精準健康產品開發/GMP品質管制系統</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="card-tab-3" data-toggle="tab" href="#card-3" role="tab" aria-controls="card-3" aria-selected="false">數位自學課程</a>
+                </li>
+              </ul>
+              <div class="tab-content" id="cardTabContent">
+                <!-- 卡片 tab-1 -->
+                <div class="tab-pane fade show active" id="card-1" role="tabpanel" aria-labelledby="card-tab-1">
+                  <div class="row">
+                    <div class="col-md-6 col-lg-4 my-4">
+                      <div class="pow-card">
+                        <a href="#">
+                          <div class="pow-card-top-img">
+                            <img src="img/example/img-1.JPG">
+                          </div>
+                          <div class="pow-card-p">
+                            <h3 class="nz-black nz-overflow-ellipsis">企業碳足跡分析管理師認證班</h3>
+                            <p class="pow-overflow-ellipsis"> <!---調整 css .pow-overflow-ellipsis 的 webkit-line-clamp ，可控制最多顯示行數，目前設定 10-->
+                              根據聯合國IPCC《第六次氣候變遷評估報告（AR6）》分析指出：未來20年內，全球平均氣溫將上升1.5℃。面對全球暖化的嚴峻挑戰，我國政府著眼於環境永續發展，及代工出口導向的經濟戰略，與全球136個國家一同推動淨零碳排轉型，預計在2050年達成目標。
+                              根據聯合國IPCC《第六次氣候變遷評估報告（AR6）》分析指出：未來20年內，全球平均氣溫將上升1.5℃。面對全球暖化的嚴峻挑戰，我國政府著眼於環境永續發展，及代工出口導向的經濟戰略，與全球136個國家一同推動淨零碳排轉型，預計在2050年達成目標。
+                            </p>
+                            <div class="pow-card-date">每年3-5月</div>
+                          </div>
+                        </a>
+                        <div class="pow-card-btn-div">
+                          <a class="pow-card-btn" href="#">
+                            <span>課程清單</span>
+                            <span class="pow-card-angle"><i class="fas fa-angle-right"></i></span>
+                          </a>
+                          <a class="pow-card-btn" href="#">
+                            <span>我要預約</span>
+                            <span class="pow-card-angle"><i class="fas fa-angle-right"></i></span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 my-4">
+                      <div class="pow-card">
+                        <a href="#">
+                          <div class="pow-card-top-img">
+                            <img src="img/example/img-2.JPG">
+                          </div>
+                          <div class="pow-card-p">
+                            <h3 class="nz-black nz-overflow-ellipsis">企業碳策略及碳權操作</h3>
+                            <p class="pow-overflow-ellipsis"> <!---調整 css .pow-overflow-ellipsis 的 webkit-line-clamp ，可控制最多顯示行數，目前設定 10-->
+                              根據聯合國IPCC《第六次氣候變遷評估報告（AR6）》分析指出：未來20年內，全球平均氣溫將上升1.5℃。面對全球暖化的嚴峻挑戰，我國政府著眼於環境永續發展，及代工出口導向的經濟戰略，與全球136個國家一同推動淨零碳排轉型，預計在2050年達成目標。
+                            </p>
+                            <div class="pow-card-date">每年3-5月</div>
+                          </div>
+                        </a>
+                        <div class="pow-card-btn-div">
+                          <a class="pow-card-btn" href="#">
+                            <span>課程清單</span>
+                            <span class="pow-card-angle"><i class="fas fa-angle-right"></i></span>
+                          </a>
+                          <a class="pow-card-btn" href="#">
+                            <span>我要預約</span>
+                            <span class="pow-card-angle"><i class="fas fa-angle-right"></i></span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 my-4">
+                      <div class="pow-card">
+                        <a href="#">
+                          <div class="pow-card-top-img">
+                            <img src="img/example/img-3.JPG">
+                          </div>
+                          <div class="pow-card-p">
+                            <h3 class="nz-black nz-overflow-ellipsis">企業淨零永續-掌握綠色能源發展及導入</h3>
+                            <p class="pow-overflow-ellipsis"> <!---調整 css .pow-overflow-ellipsis 的 webkit-line-clamp ，可控制最多顯示行數，目前設定 10-->
+                              根據聯合國IPCC《第六次氣候變遷評估報告（AR6）》分析指出：未來20年內，全球平均氣溫將上升1.5℃。面對全球暖化的嚴峻挑戰，我國政府著眼於環境永續發展，及代工出口導向的經濟戰略，與全球136個國家一同推動淨零碳排轉型，預計在2050年達成目標。
+                              根據聯合國IPCC《第六次氣候變遷評估報告（AR6）》分析指出：未來20年內，全球平均氣溫將上升1.5℃。面對全球暖化的嚴峻挑戰，我國政府著眼於環境永續發展，及代工出口導向的經濟戰略，與全球136個國家一同推動淨零碳排轉型，預計在2050年達成目標。
+                            </p>
+                            <div class="pow-card-date">每年3-5月</div>
+                          </div>
+                        </a>
+                        <div class="pow-card-btn-div">
+                          <a class="pow-card-btn" href="#">
+                            <span>課程清單</span>
+                            <span class="pow-card-angle"><i class="fas fa-angle-right"></i></span>
+                          </a>
+                          <a class="pow-card-btn" href="#">
+                            <span>我要預約</span>
+                            <span class="pow-card-angle"><i class="fas fa-angle-right"></i></span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div class="pow-card-p">
-                  <h3 class="nz-black nz-overflow-ellipsis-2">企業碳足跡分析管理師認證班</h3>
-                  <p class="pow-overflow-ellipsis"> <!---調整 css .pow-overflow-ellipsis 的 webkit-line-clamp ，可控制最多顯示行數，目前設定 12-->
-                    根據聯合國IPCC《第六次氣候變遷評估報告（AR6）》分析指出：未來20年內，全球平均氣溫將上升1.5℃。面對全球暖化的嚴峻挑戰，我國政府著眼於環境永續發展，及代工出口導向的經濟戰略，與全球136個國家一同推動淨零碳排轉型，預計在2050年達成目標。
-                    根據聯合國IPCC《第六次氣候變遷評估報告（AR6）》分析指出：未來20年內，全球平均氣溫將上升1.5℃。面對全球暖化的嚴峻挑戰，我國政府著眼於環境永續發展，及代工出口導向的經濟戰略，與全球136個國家一同推動淨零碳排轉型，預計在2050年達成目標。
-                    
-                  </p>
-                  <div class="pow-card-date mb-3">每年3-5月</div>
-                  <a class="pow-card-btn" href="#">
-                    <span>課程清單</span>
-                    <span class="pow-card-angle"><i class="fas fa-angle-right"></i></span>
-                  </a>
-                  <!--<a class="pow-card-btn" href="#">
-                    <span>立即報名</span>
-                    <span class="pow-card-angle"><i class="fas fa-angle-right"></i></span>-->
-                  </a>
+                <!-- 卡片 tab-2 -->
+                <div class="tab-pane fade" id="card-2" role="tabpanel" aria-labelledby="card-tab-2">
+                  <div class="row">
+                    <div class="col-md-6 col-lg-4 my-4">
+                      <div class="pow-card">
+                        <a href="#">
+                          <div class="pow-card-top-img">
+                            <img src="img/example/img-4.JPG">
+                          </div>
+                          <div class="pow-card-p">
+                            <h3 class="nz-black nz-overflow-ellipsis">企業淨零永續-掌握綠色能源發展及導入</h3>
+                            <p class="pow-overflow-ellipsis"> <!---調整 css .pow-overflow-ellipsis 的 webkit-line-clamp ，可控制最多顯示行數，目前設定 10-->
+                              根據聯合國IPCC《第六次氣候變遷評估報告（AR6）》分析指出：未來20年內，全球平均氣溫將上升1.5℃。面對全球暖化的嚴峻挑戰，我國政府著眼於環境永續發展，及代工出口導向的經濟戰略，與全球136個國家一同推動淨零碳排轉型，預計在2050年達成目標。
+                            </p>
+                            <div class="pow-card-date">每年3-5月</div>
+                          </div>
+                        </a>
+                        <div class="pow-card-btn-div">
+                          <a class="pow-card-btn" href="#">
+                            <span>課程清單</span>
+                            <span class="pow-card-angle"><i class="fas fa-angle-right"></i></span>
+                          </a>
+                          <a class="pow-card-btn" href="#">
+                            <span>我要預約</span>
+                            <span class="pow-card-angle"><i class="fas fa-angle-right"></i></span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 my-4">
+                      <div class="pow-card">
+                        <a href="#">
+                          <div class="pow-card-top-img">
+                            <img src="img/example/img-5.JPG">
+                          </div>
+                          <div class="pow-card-p">
+                            <h3 class="nz-black nz-overflow-ellipsis">企業淨零永續-掌握綠色能源發展及導入</h3>
+                            <p class="pow-overflow-ellipsis"> <!---調整 css .pow-overflow-ellipsis 的 webkit-line-clamp ，可控制最多顯示行數，目前設定 10-->
+                              根據聯合國IPCC《第六次氣候變遷評估報告（AR6）》分析指出：未來20年內，全球平均氣溫將上升1.5℃。面對全球暖化的嚴峻挑戰，我國政府著眼於環境永續發展，及代工出口導向的經濟戰略，與全球136個國家一同推動淨零碳排轉型，預計在2050年達成目標。
+                              根據聯合國IPCC《第六次氣候變遷評估報告（AR6）》分析指出：未來20年內，全球平均氣溫將上升1.5℃。面對全球暖化的嚴峻挑戰，我國政府著眼於環境永續發展，及代工出口導向的經濟戰略，與全球136個國家一同推動淨零碳排轉型，預計在2050年達成目標。
+                            </p>
+                            <div class="pow-card-date">每年3-5月</div>
+                          </div>
+                        </a>
+                        <div class="pow-card-btn-div">
+                          <a class="pow-card-btn" href="#">
+                            <span>課程清單</span>
+                            <span class="pow-card-angle"><i class="fas fa-angle-right"></i></span>
+                          </a>
+                          <a class="pow-card-btn" href="#">
+                            <span>我要預約</span>
+                            <span class="pow-card-angle"><i class="fas fa-angle-right"></i></span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 my-4">
+                      <div class="pow-card">
+                        <a href="#">
+                          <div class="pow-card-top-img">
+                            <img src="img/example/img-2.JPG">
+                          </div>
+                          <div class="pow-card-p">
+                            <h3 class="nz-black nz-overflow-ellipsis">企業淨零永續-掌握綠色能源發展及導入</h3>
+                            <p class="pow-overflow-ellipsis"> <!---調整 css .pow-overflow-ellipsis 的 webkit-line-clamp ，可控制最多顯示行數，目前設定 10-->
+                              根據聯合國IPCC《第六次氣候變遷評估報告（AR6）》分析指出：未來20年內，全球平均氣溫將上升1.5℃。面對全球暖化的嚴峻挑戰，我國政府著眼於環境永續發展，及代工出口導向的經濟戰略，與全球136個國家一同推動淨零碳排轉型，預計在2050年達成目標。
+                              根據聯合國IPCC《第六次氣候變遷評估報告（AR6）》分析指出：未來20年內，全球平均氣溫將上升1.5℃。面對全球暖化的嚴峻挑戰，我國政府著眼於環境永續發展，及代工出口導向的經濟戰略，與全球136個國家一同推動淨零碳排轉型，預計在2050年達成目標。
+                            </p>
+                            <div class="pow-card-date">每年3-5月</div>
+                          </div>
+                        </a>
+                        <div class="pow-card-btn-div">
+                          <a class="pow-card-btn" href="#">
+                            <span>課程清單</span>
+                            <span class="pow-card-angle"><i class="fas fa-angle-right"></i></span>
+                          </a>
+                          <a class="pow-card-btn" href="#">
+                            <span>我要預約</span>
+                            <span class="pow-card-angle"><i class="fas fa-angle-right"></i></span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-              </a>
+                <!-- 卡片 tab-3 -->
+                <div class="tab-pane fade" id="card-3" role="tabpanel" aria-labelledby="card-tab-3">
+                  <h3 class="m-5">卡片 tab-3 的內容</h3>
+                </div>
+                <!-- 卡片 tab-4 -->
+                <div class="tab-pane fade" id="card-4" role="tabpanel" aria-labelledby="card-tab-4">
+                  <h3 class="m-5">卡片 tab-4 的內容</h3>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="col-md-6 col-lg-4 my-4">
-            <div class="pow-card">
-              <a href="#">
-                <div class="pow-card-top-img">
-                  <img src="img/example/img-2.JPG">
-                </div>
-                <div class="pow-card-p">
-                  <h3 class="nz-black nz-overflow-ellipsis-2">企業碳策略及碳權操作</h3>
-                  <p class="pow-overflow-ellipsis"> <!---調整 css .pow-overflow-ellipsis 的 webkit-line-clamp ，可控制最多顯示行數，目前設定 12-->
-                    根據聯合國IPCC《第六次氣候變遷評估報告（AR6）》分析指出：未來20年內，全球平均氣溫將上升1.5℃。面對全球暖化的嚴峻挑戰，我國政府著眼於環境永續發展，及代工出口導向的經濟戰略，與全球136個國家一同推動淨零碳排轉型，預計在2050年達成目標。
-                    根據聯合國IPCC《第六次氣候變遷評估報告（AR6）》分析指出：未來20年內，全球平均氣溫將上升1.5℃。
-                  </p>
-                  <div class="pow-card-date mb-3">每年9-10月</div>
-                 
-                  <a class="pow-card-btn" href="#">
-                    <span>課程清單</span>
-                    <span class="pow-card-angle"><i class="fas fa-angle-right"></i></span>
-                  </a>
-                  <!--<a class="pow-card-btn" href="#">
-                    <span>立即報名</span>
-                    <span class="pow-card-angle"><i class="fas fa-angle-right"></i></span>-->
-                  </a>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 my-4">
-            <div class="pow-card">
-              <a href="#">
-                <div class="pow-card-top-img">
-                  <img src="img/example/img-3.JPG">
-                </div>
-                <div class="pow-card-p">
-                  <h3 class="nz-black nz-overflow-ellipsis-2">企業淨零永續-掌握綠色能源發展及導入</h3>
-                  <p class="pow-overflow-ellipsis"> <!---調整 css .pow-overflow-ellipsis 的 webkit-line-clamp ，可控制最多顯示行數，目前設定 12-->
-                    根據聯合國IPCC《第六次氣候變遷評估報告（AR6）》分析指出：未來20年內，全球平均氣溫將上升1.5℃。面對全球暖化的嚴峻挑戰，我國政府著眼於環境永續發展，及代工出口導向的經濟戰略，與全球136個國家一同推動淨零碳排轉型，預計在2050年達成目標。
-                  </p>
-                  
-                    <div class="pow-card-date mb-3">每年7月</div>
-                  <a class="pow-card-btn" href="#">
-                    <span>課程清單</span>
-                    <span class="pow-card-angle"><i class="fas fa-angle-right"></i></span>
-                  </a>
-                  <!--<a class="pow-card-btn" href="#">
-                    <span>立即報名</span>
-                    <span class="pow-card-angle"><i class="fas fa-angle-right"></i></span>-->
-                  </a>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- 卡片 tab-2 -->
-      <div class="tab-pane fade" id="card-2" role="tabpanel" aria-labelledby="card-tab-2">
-        <div class="row">
-          <div class="col-md-6 col-lg-4 my-4">
-            <div class="pow-card">
-              <a href="#">
-                <div class="pow-card-top-img">
-                  <img src="img/example/img-4.JPG">
-                </div>
-                <div class="pow-card-p">
-                  <h3 class="nz-black nz-overflow-ellipsis-2">推動淨零碳排，台灣不落人後｜解析企業加入淨零轉型的遠因及助益</h3>
-                  <p class="pow-overflow-ellipsis"> <!---調整 css .pow-overflow-ellipsis 的 webkit-line-clamp ，可控制最多顯示行數，目前設定 12-->
-                    根據聯合國IPCC《第六次氣候變遷評估報告（AR6）》分析指出：未來20年內，全球平均氣溫將上升1.5℃。面對全球暖化的嚴峻挑戰，我國政府著眼於環境永續發展，及代工出口導向的經濟戰略，與全球136個國家一同推動淨零碳排轉型，預計在2050年達成目標。
-                    根據聯合國IPCC《第六次氣候變遷評估報告（AR6）》分析指出：未來20年內，全球平均氣溫將上升1.5℃。面對全球暖化的嚴峻挑戰，我國政府著眼於環境永續發展，及代工出口導向的經濟戰略，與全球136個國家一同推動淨零碳排轉型，預計在2050年達成目標。
-                    根據聯合國IPCC《第六次氣候變遷評估報告（AR6）》分析指出：未來20年內，全球平均氣溫將上升1.5℃。面對全球暖化的嚴峻挑戰，我國政府著眼於環境永續發展，及代工出口導向的經濟戰略，與全球136個國家一同推動淨零碳排轉型，預計在2050年達成目標。
-                    根據聯合國IPCC《第六次氣候變遷評估報告（AR6）》分析指出：未來20年內，全球平均氣溫將上升1.5℃。面對全球暖化的嚴峻挑戰，我國政府著眼於環境永續發展，及代工出口導向的經濟戰略，與全球136個國家一同推動淨零碳排轉型，預計在2050年達成目標。
-                    根據聯合國IPCC《第六次氣候變遷評估報告（AR6）》分析指出：未來20年內，全球平均氣溫將上升1.5℃。面對全球暖化的嚴峻挑戰，我國政府著眼於環境永續發展，及代工出口導向的經濟戰略，與全球136個國家一同推動淨零碳排轉型，預計在2050年達成目標。
-                    根據聯合國IPCC《第六次氣候變遷評估報告（AR6）》分析指出：未來20年內，全球平均氣溫將上升1.5℃。面對全球暖化的嚴峻挑戰，我國政府著眼於環境永續發展，及代工出口導向的經濟戰略，與全球136個國家一同推動淨零碳排轉型，預計在2050年達成目標。
-                  </p>
-                  <div class="pow-card-date mb-3">2022/08/05</div>
-                  <a class="pow-card-btn" href="#">
-                    <span>了解更多</span>
-                    <span class="pow-card-angle"><i class="fas fa-angle-right"></i></span>
-                  </a>
-                  <a class="pow-card-btn" href="#">
-                    <span>立即報名</span>
-                    <span class="pow-card-angle"><i class="fas fa-angle-right"></i></span>
-                  </a>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 my-4">
-            <div class="pow-card">
-              <a href="#">
-                <div class="pow-card-top-img">
-                  <img src="img/example/img-5.JPG">
-                </div>
-                <div class="pow-card-p">
-                  <h3 class="nz-black nz-overflow-ellipsis-2">推動淨零碳排，台灣不落人後｜解析企業加入淨零轉型的遠因及助益</h3>
-                  <p class="pow-overflow-ellipsis"> <!---調整 css .pow-overflow-ellipsis 的 webkit-line-clamp ，可控制最多顯示行數，目前設定 12-->
-                    根據聯合國IPCC《第六次氣候變遷評估報告（AR6）》分析指出：未來20年內，全球平均氣溫將上升1.5℃。面對全球暖化的嚴峻挑戰，我國政府著眼於環境永續發展，及代工出口導向的經濟戰略，與全球136個國家一同推動淨零碳排轉型，預計在2050年達成目標。
-                    根據聯合國IPCC《第六次氣候變遷評估報告（AR6）》分析指出：未來20年內，全球平均氣溫將上升1.5℃。
-                  </p>
-                  <div class="pow-card-date mb-3">2022/08/05</div>
-                  <a class="pow-card-btn" href="#">
-                    <span>了解更多</span>
-                    <span class="pow-card-angle"><i class="fas fa-angle-right"></i></span>
-                  </a>
-                  <a class="pow-card-btn" href="#">
-                    <span>立即報名</span>
-                    <span class="pow-card-angle"><i class="fas fa-angle-right"></i></span>
-                  </a>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 my-4">
-            <div class="pow-card">
-              <a href="#">
-                <div class="pow-card-top-img">
-                  <img src="img/example/img-2.JPG">
-                </div>
-                <div class="pow-card-p">
-                  <h3 class="nz-black nz-overflow-ellipsis-2">推動淨零碳排，台灣不落人後｜解析企業加入淨零轉型的遠因及助益</h3>
-                  <p class="pow-overflow-ellipsis"> <!---調整 css .pow-overflow-ellipsis 的 webkit-line-clamp ，可控制最多顯示行數，目前設定 12-->
-                    根據聯合國IPCC《第六次氣候變遷評估報告（AR6）》分析指出：未來20年內，全球平均氣溫將上升1.5℃。面對全球暖化的嚴峻挑戰，我國政府著眼於環境永續發展，及代工出口導向的經濟戰略，與全球136個國家一同推動淨零碳排轉型，預計在2050年達成目標。
-                  </p>
-                  <div class="pow-card-date mb-3">2022/08/05</div>
-                  <a class="pow-card-btn" href="#">
-                    <span>了解更多</span>
-                    <span class="pow-card-angle"><i class="fas fa-angle-right"></i></span>
-                  </a>
-                  <a class="pow-card-btn" href="#">
-                    <span>立即報名</span>
-                    <span class="pow-card-angle"><i class="fas fa-angle-right"></i></span>
-                  </a>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- 卡片 tab-3 -->
-      <div class="tab-pane fade" id="card-3" role="tabpanel" aria-labelledby="card-tab-3">
-        <h3 class="m-5">卡片 tab-3 的內容</h3>
-      </div>
-      <!-- 卡片 tab-4 -->
-      <div class="tab-pane fade" id="card-4" role="tabpanel" aria-labelledby="card-tab-4">
-        <h3 class="m-5">卡片 tab-4 的內容</h3>
-      </div>
-    </div>
-  </div>
         </section>
-        <!-- 永續專業課程 -->
+        <!-- 課程總覽 -->
         <section>
             <h1 class="nz-title nz-primary my-4">課程總覽</h1>
-            <div id="course_zone1" class="" style="margin:-15px">
-                <div id="course_carousel1">
+            <div id="course_zone1" class="">
+              <div class="d-block d-sm-flex row justify-content-between align-content-center mt-4">
+                <div class="d-flex col-lg-8 col-md-7 col-12">
+                    <ul class="nz-type-tab nav nav-pills mb-3">
+                        <li id="allTab" class="nav-item" onclick="showTypeTab('allTab')">
+                            <a class="nav-link active" id="aAttributeTotal">全部</a>
+                        </li>
+                        <li id="entityTab" class="nav-item" onclick="showTypeTab('entityTab')">
+                            <a class="nav-link" id="aAttributeP">
+                                <span class="d-none d-lg-block"><i class="fas fa-user-friends"></i> 實體課程</span>
+                                <span class="d-lg-none d-block"><i class="fas fa-user-friends"></i> 實體</span>
+                            </a>
+                        </li>
+                        <li id="digitTab" class="nav-item" onclick="showTypeTab('digitTab')">
+                            <a class="nav-link" id="aAttributeD">
+                                <span class="d-none d-lg-block"><i class="fas fa-video"></i> 數位直播</span>
+                                <span class="d-lg-none d-block"><i class="fas fa-video"></i> 直播</span>
+                            </a>
+                        </li>
+                        <li id="mixedTab" class="nav-item" onclick="showTypeTab('mixedTab')">
+                            <a class="nav-link" id="aAttributeC">
+                                <span class="d-none d-lg-block"><i class="fas fa-laptop-house"></i> 實數混成</span>
+                                <span class="d-lg-none d-block"><i class="fas fa-laptop-house"></i> 混成</span>
+                            </a>
+                        </li>
+                        <li id="cloudTab" class="nav-item" onclick="showTypeTab('cloudTab')">
+                            <a class="nav-link" id="aAttributeL">
+                                <span class="d-none d-lg-block"><i class="fas fa-photo-video"></i> 雲端自學</span>
+                                <span class="d-lg-none d-block"><i class="fas fa-photo-video"></i> 自學</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="d-flex col-lg-4 col-md-5 col-12 justify-content-end">
+                    <div class="nz-sort-select mr-2">
+                        <select id="ddlSort" class="form-control" title="排序">
+                            <option value="1">日期由新至舊</option>
+                            <option selected="" value="2">日期由舊至新</option>
+                            <option value="3">時數由多至少</option>
+                            <option value="4">時數由少至多</option>
+                        </select>
+                    </div>
+                    <nav class="nz-course-list-tab">
+                        <div class="nav nav-tabs btn-group" role="tablist">
+                            <a id="courseListCardTab" class="btn nz-btn-primary " data-toggle="tab" href="#courseListCard" role="tab" aria-controls="courseListCard" aria-selected="true"><i class="fas fa-th-large"></i></a>
+                            <a id="courseListTableTab" class="btn nz-btn-primary active" data-toggle="tab" href="#courseListTable" role="tab" aria-controls="courseListTable" aria-selected="false"><i class="fas fa-list"></i></a>
+                        </div>
+                    </nav>
+                </div>
+              </div>
+            </div>
+            <!-- tab 內容 -->
+            <div class="tab-content">
+                <!-- 文章清單(圖文) -->
+                <div class="tab-pane fade" id="courseListCard" role="tabpanel" aria-labelledby="courseListCardTab">
+                    <div id="curseCardDiv" class="row"></div>
+                    <!-- 更多 -->
+                    <div class="text-right mt-lg-0 mt-3 mb-4">
+                      <button onclick="loadMore(false)" class="btn nz-btn nz-btn-primary">
+                        更 多
+                      </button>
+                    </div>
+                </div>
+                <!-- 文章清單(表格) -->
+                <div class="tab-pane fade show active" id="courseListTable" role="tabpanel" aria-labelledby="courseListTableTab">
+                    <table class="nz-rwd-table table-striped mt-3">
+                        <thead>
+                            <tr>
+                                <th>課程名稱</th>
+                                <th>地點/型態</th>
+                                <th>日期</th>
+                                <th>時數</th>
+                            </tr>
+                        </thead>
+                        <tbody id="articleTbody">
+                          <tr>
+                            <td class="nz-table-title"> 
+                              <a href="https://college.itri.org.tw//Home/LessonData/448FBF3A-47E9-4E5A-989E-ABE4086FFA56" class="nz-primary d-flex" data-toggle="tooltip" data-placement="top" target="_itriCollege_" title="" data-original-title="ISO 14067 碳足跡查證主任查證員課程（台北班） (另開新頁前往 產業學習網)">
+                                <div class="nz-course-status nz-bg-warning mr-1">置頂</div>
+                                <div class="d-lg-inline-block d-block">ISO 14067 碳足跡查證主任查證員課程（台北班）</div>
+                              </a>                            
+                            </td>
+                            <td class="d-md-none d-block" data-th="地點">
+                              <div class="d-inline-block nz-dark-gray" data-toggle="tooltip" data-placement="top" data-original-title="實體課程">台北</div>
+                            </td>
+                            <td class="d-none d-md-block" data-th="地點/型態">
+                              <div class="d-inline-block nz-dark-gray" data-toggle="tooltip" data-placement="top" data-original-title="實體課程">台北</div>
+                            </td>
+                            <td data-th="日期">2023/02/13~2023/02/15</td>
+                            <td data-th="時數">18hr</td>
+                          </tr>
+                        </tbody>
+                    </table>
+                    <!-- 分頁 -->
+                    <nav class="d-flex row justify-content-between mt-4">
+                      <div class="col-lg-7 mb-3 mb-lg-0 text-right nz-page-info">
+                        <div class="d-flex align-items-center justify-content-lg-start justify-content-end mb-3 mb-lg-0">
+                          <div>每頁顯示</div>
+                          <div class="mx-1">
+                            <select class="form-control">
+                              <option>5</option>
+                              <option>10</option>
+                              <option selected>15</option>
+                            </select>
+                          </div>
+                          <div class="d-none d-lg-block">筆，目前第 1 到 15 筆結果，共 395 筆</div>
+                        </div>
+                        <div class="d-lg-none">目前第 1 到 15 筆結果，共 395 筆</div>
+                      </div>
+                      <ul class="pagination col-lg-5 d-flex justify-content-end">
+                        <li class="nz-page-item"><a href="#"><i class="fas fa-angle-double-left"></i></a></li>
+                        <li class="nz-page-item"><a href="#"><i class="fas fa-angle-left"></i></a></li>
+                        <li class="nz-page-item active"><a href="#">1</a></li>
+                        <li class="nz-page-item"><a href="#">2</a></li>
+                        <li class="nz-page-item"><a href="#">3</a></li>
+                        <li class="nz-page-item"><a href="#">4</a></li>
+                        <li class="nz-page-item"><a href="#">5</a></li>
+                        <li class="nz-page-ellipsis">...</li>
+                        <li class="nz-page-item"><a href="#">10</a></li>
+                        <li class="nz-page-item"><a href="#"><i class="fas fa-angle-right"></i></a></li>
+                        <li class="nz-page-item"><a href="#"><i class="fas fa-angle-double-right"></i></a></li>
+                      </ul>
+                    </nav>
                 </div>
             </div>
-            <!-- 更多 -->
-            <div class="text-right mt-lg-0 pt-4">
-                <!-- TODO: url -->
-                <a href="#">
-                    <button class="btn nz-btn nz-btn-primary" id="btnLesson1more">更 多</button>
-                </a>
-            </div>
         </section>
-
-        <!-- 數位課程
-        <section class="mt-5">
-            <h1 class="nz-title nz-primary my-4">數位課程</h1>
-            <div id="course_zone2" class="" style="margin:-15px">
-                <div id="course_carousel2">
-                </div>
-            </div> -->
-            <!-- 更多 
-            <div class="text-right mt-lg-0 pt-4">
-                <!-- TODO: url 
-                <a href="#">
-                    <button class="btn nz-btn nz-btn-primary" id="btnLesson2more">更 多</button>
-                </a>
-            </div>
-        </section>
-    </div> -->
-    <!-- 淨零知識 
-    <div class="nz-bg-gray mt-5">
-        <div class="container py-3">
-            <section>
-                <h1 class="nz-title nz-primary my-4">
-                 職業養成
-                </h1>
-                <!-- 分類 
-                <div class="row">
-                    <div class="col-lg-3 col-md-6 col-12">
-                        <div class="nz-know-theme">
-                            <a href="knowledge.html" title="生技化粧品研發主管">
-                                <img class="nz-img" src="img/knowledge/them-1.jpg" />
-                                <div class="nz-mask">
-                                    <div class="nz-img-word">
-                                        <h2>生技化粧品<br />研發主管</h2>
-                                        <!-- <p>搞懂零碳排搞懂零碳排搞懂零碳排</p> 
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-12">
-                        <div class="nz-know-theme">
-                            <a href="knowledge.html" title="生活碳足跡系列">
-                                <img class="nz-img" src="img/knowledge/them-2.jpg" />
-                                <div class="nz-mask">
-                                    <div class="nz-img-word">
-                                        <h2>生技產品<br />醱酵技術<br />工程師</h2>
-                                        <!-- <p>
-                                            瞭解如何將減碳新科技，融入生活食衣住行育樂，打造時尚的減碳未來新生活。
-                                        </p> 
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-12">
-                        <div class="nz-know-theme">
-                            <a href="knowledge.html" title="永續能源 8 堂課">
-                                <img class="nz-img" src="img/knowledge/them-3.jpg" />
-                                <div class="nz-mask">
-                                    <div class="nz-img-word">
-                                        <h2>醫療器材<br />產品開發<br />工程師</h2>
-                                        <!-- <p>
-                                            拆解淨零永續生活的驅動關鍵 - 再生能源、低碳科技
-                                            將複雜的永續技術轉成最生活化環保行動
-                                        </p> 
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-12">
-                        <div class="nz-know-theme">
-                            <a href="knowledge.html" title="掌握企業零碳解方">
-                                <img class="nz-img" src="img/knowledge/them-4.jpg" />
-                                <div class="nz-mask">
-                                    <div class="nz-img-word">
-                                        <h2>生醫法規科學<br />及智慧財產權<br />工程師</h2>
-                                        <!-- <p>工研院幫您打造淨零時代競爭力，提供企業淨零減碳解方</p> 
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div> -->
 				 <h1 class="nz-title nz-primary my-4">
                  延伸閱讀
                 </h1>
@@ -488,6 +512,110 @@ GMP品質管制系統
         includeHTML();
     </script>
     <!-- footer end -->
+
+    <script>
+      $(document).ready(function () {
+        loadMore(true);
+        appendCourseListTableData();
+      });
+      // 載入更多專業課程
+      function loadMore(firstLoad) {
+        let resultHtml = '';
+        let count = 3;
+        if (firstLoad) count = 9;
+        for (let i = 0; i < count; i++) {
+          let imgUrl = 'img/example/img-' + (Math.floor(Math.random() * 5) + 1) + '.JPG'
+          let articleHtml = `
+                <div class="col-sm-6 col-md-4">
+                  <div class="nz-course-bg-card">
+                    <a
+                      href="https://college.itri.org.tw/Home/InfoData/f6e19f2d-f81c-421c-bc36-ea6409ba0a5d/9177d9f9-b9ca-424a-b5ac-c8a414a20383">
+                      <div class="nz-course-bg-card-img">
+                        <img class="nz-img" src="${imgUrl}" alt="文章封面" />
+                      </div>
+                      <div class="nz-course-bg-card-info">
+                        <div class="nz-course-status nz-bg-primary" data-toggle="tooltip" data-placement="top" data-original-title="實體課程">台北 實體</div>
+                        <div class="nz-course-status nz-bg-dark-gray">18hr</div>
+                        <h5 class="nz-course-bg-card-title nz-black nz-overflow-ellipsis-2">
+                          【政府補助】 AI機器學習Machine Learning 與深度學習 Deep Learning 精修班
+                        </h5>
+                        <p class="nz-overflow-ellipsis-3">
+                          PIC/S GMP及PIC/S GDP是兩套目前製藥及生技產業最重要的規範標準，在進行硬體改善以符合規範要求前，就應導入適當之品質管理文件在進行硬體改善以符合規
+                        </p>
+                        <div class="nz-know-date">2022/09/27 ~ 2022/09/28</div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+          `;
+  
+          resultHtml += articleHtml;
+        }
+  
+        $("#curseCardDiv").append(resultHtml);
+      }
+  
+      // 塞 table 假資料
+      function appendCourseListTableData() {
+        // 假資料，之後可以刪掉
+        const fakeData = [{
+            title: "以案例剖析AI智慧醫療影像辨識技術",
+            url: "https://college.itri.org.tw/Home/LessonData/69F2F45A-15C4-475A-9115-DBF5B50DCD4C?0917-3",
+            date: "2022/09/15 ~ 2022/09/16",
+            type: "台北",
+            typeTitle: "實體課程",
+            status: "<i class='fas fa-minus-circle'></i> 已額滿"
+          },
+          {
+            title: "新興生醫檢測技術的趨勢與實現",
+            url: "https://college.itri.org.tw/Home/LessonData/69F2F45A-15C4-475A-9115-DBF5B50DCD4C?0917-4",
+            date: "2022/09/15 ~ 2022/09/16",
+            type: "新竹",
+            typeTitle: "實體課程",
+            status: "<i class='fas fa-ban'></i> 報名截止"
+          },
+          {
+            title: "歐盟醫療器材/體外診斷醫療器材法規解析系列課程",
+            url: "https://college.itri.org.tw/Home/LessonData/69F2F45A-15C4-475A-9115-DBF5B50DCD4C?0917-5",
+            date: "2022/09/15 ~ 2022/09/16",
+            type: "台中",
+            typeTitle: "實體課程",
+            status: "<i class='fas fa-times-circle'></i> 已取消"
+          }
+        ]
+        let resultHtml = '';
+        for (let i = 0; i < 14; i++) {
+          let index = i < 2 ? i : Math.floor(Math.random() * (3 - 0));
+          let html = `
+            <tr>
+              <td class="nz-table-title"> 
+                <a href="${fakeData[index].url}" class="nz-primary d-flex" data-toggle="tooltip" data-placement="top" target="_itriCollege_" title="" data-original-title="${fakeData[index].title}">
+                  <div class="d-lg-inline-block d-block">${fakeData[index].title}</div>
+                </a>                            
+              </td>
+              <td class="d-md-none d-block" data-th="地點">
+                <div class="d-inline-block nz-dark-gray" data-toggle="tooltip" data-placement="top" data-original-title="${fakeData[index].typeTitle}">${fakeData[index].type}</div>
+              </td>
+              <td class="d-none d-md-block" data-th="地點/型態">
+                <div class="d-inline-block nz-dark-gray" data-toggle="tooltip" data-placement="top" data-original-title="${fakeData[index].typeTitle}">${fakeData[index].type}</div>
+              </td>
+              <td data-th="日期">${fakeData[index].date}</td>
+              <td data-th="時數">18hr</td>
+            </tr>
+          `
+          resultHtml += html;
+        }
+        $("#articleTbody").append(resultHtml);
+        // 初始化 bootstrap tooltip 提示功能
+        $('[data-toggle="tooltip"]').tooltip();
+      }
+  
+      // 顯示類別 tab
+      function showTypeTab(type) {
+        $(".nz-type-tab .nav-link").removeClass("active");
+        $("#" + type + ' .nav-link').addClass("active");
+      }
+    </script>
 </body>
 
 </html>

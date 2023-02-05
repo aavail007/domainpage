@@ -16,7 +16,7 @@ header {
 }
 
 .nz-bg-primary {
-  background-color: #808080 !important;
+  background-color: #649e68 !important;
 }
 
 .nz-bg-danger {
@@ -36,9 +36,8 @@ header {
 }
 
 .nz-bg-darkblue {
-  background-color: #19428B !important;
+  background-color: #19428b !important;
 }
-
 
 .nz-bg-dark-gray {
   background-color: #959494 !important;
@@ -46,7 +45,7 @@ header {
 
 a:link,
 a:visited {
-  color: #02AFBB;
+  color: #02afbb;
 }
 
 a:hover,
@@ -68,7 +67,7 @@ a:focus {
 
 a.nz-primary:hover,
 a .nz-primary:hover {
-  color: #02AFBB;
+  color: #02afbb;
   transition: 0.3s;
   text-decoration: none;
 }
@@ -94,7 +93,7 @@ a .nz-black:hover {
 }
 
 .nz-warning {
-  color: #ff8b32
+  color: #ff8b32;
 }
 
 .btn:focus {
@@ -124,7 +123,7 @@ a .nz-black:hover {
 .nz-btn-primary:active,
 .nz-btn-primary:focus,
 .active.nz-btn-primary {
-  background-color: #02AFBB;
+  background-color: #02afbb;
   color: #ffffff;
 }
 
@@ -185,10 +184,9 @@ a .nz-black:hover {
   border-radius: 4px;
 }
 
-.nz-carousel-btn:hover { 
+.nz-carousel-btn:hover {
   background-color: #e9e9e9;
 }
-
 
 .nz-carousel .carousel-control-next {
   right: -20px;
@@ -224,8 +222,8 @@ a .nz-black:hover {
   padding: 10px 15px;
 }
 
-.nz-nav-item a{
-  align-items: center!important;
+.nz-nav-item a {
+  align-items: center !important;
 }
 
 .nz-nav-item:last-child {
@@ -260,7 +258,7 @@ a .nz-black:hover {
 
 .nz-menu {
   font-size: 20px;
-  background-color: #3C3C3C;
+  background-color: #3c3c3c;
 }
 
 .nz-menu a:link,
@@ -291,20 +289,20 @@ a .nz-black:hover {
 .nz-title-2 {
   font-size: 28px;
   font-weight: 900;
-  color: #02757F;
+  color: #02757f;
 }
 
 .nz-title-3 {
   font-size: 28px;
   font-weight: bolder;
-  color:#1a9d90;
+  color: #1a9d90;
 }
 
 .nz-title-4 {
   text-indent: 1em;
   font-size: 22px;
   font-weight: bolder;
-  color:#6f9d1a;
+  color: #6f9d1a;
 }
 
 .nz-subtitle {
@@ -314,7 +312,7 @@ a .nz-black:hover {
 }
 
 .nz-menu-bar {
-  color: #02AFBB;
+  color: #02afbb;
   font-size: 26px;
 }
 
@@ -322,7 +320,7 @@ a .nz-black:hover {
   padding: 10px 40px;
   font-size: 26px;
   font-weight: 400;
-  background-color: #02AFBB;
+  background-color: #02afbb;
 }
 
 .nz-navbar-nav a {
@@ -336,7 +334,7 @@ a .nz-black:hover {
 .nz-navbar-collapse {
   height: 100vh;
   overflow: auto;
-  background-color: #02AFBB;
+  background-color: #02afbb;
 }
 
 .nz-navbar-collapse > .nz-navbar-nav {
@@ -350,7 +348,7 @@ a .nz-black:hover {
 /* 滾輪下拉後縮小 header */
 .nz-small-header {
   transition: 0.5s;
-  border-top: solid 3px #02AFBB;
+  border-top: solid 3px #02afbb;
 }
 .nz-small-header .nz-logo {
   height: 45px;
@@ -374,7 +372,7 @@ a .nz-black:hover {
 }
 
 .nz-dropdown .dropdown-menu a.dropdown-item {
-  color: #02AFBB;
+  color: #02afbb;
   padding: 10px 25px;
 }
 
@@ -395,7 +393,7 @@ a .nz-black:hover {
 
 /* ----- banner 輪播圖 ----- */
 .nz-banner .carousel-inner {
-  height: 290px;
+  height: 380px;
   padding: 0 30px 15px;
 }
 
@@ -404,6 +402,14 @@ a .nz-black:hover {
   height: 100%;
   border-radius: 6px;
   overflow: hidden;
+}
+
+/* ----- 領域介紹 ----- */
+.nz-desc {
+  font-size: 18px;
+  color: #555555;
+  line-height: 2;
+  padding-bottom: 15px;
 }
 
 /* ----- 焦點訊息 ----- */
@@ -614,7 +620,7 @@ a .nz-black:hover {
 
 /* ---------- footer ------------ */
 footer {
-  background-color: #02AFBB;
+  background-color: #02afbb;
   padding: 30px 0;
   color: #ffffff;
   text-align: left;
@@ -690,7 +696,7 @@ a.nz-a-white:active {
 
 .nz-breadcrumb a:hover,
 .nz-breadcrumb .active a {
-  color: #2D2C31;
+  color: #2d2c31;
 }
 
 .nz-breadcrumb a:active {
@@ -717,11 +723,11 @@ a.nz-a-white:active {
 }
 
 .nz-rwd-table tbody tr:nth-of-type(odd) {
-  background-color: #e8f0e9;
+  background-color: #53a0a61f;
 }
 
 .nz-rwd-table th {
-  border-top: #e8f0e9 solid 3px;
+  border-top: #53a0a61f solid 3px;
 }
 
 .nz-rwd-table th:first-child {
@@ -754,7 +760,7 @@ a.nz-a-white:active {
 }
 
 .nz-table-title a:visited {
-  color: #02AFBB;
+  color: #02afbb;
 }
 
 .nz-table-title a:hover {
@@ -792,7 +798,7 @@ a.nz-a-white:active {
 }
 
 .nz-page-item:hover {
-  background-color: #e8f0e9;
+  background-color: #53a0a61f;
 }
 
 .nz-page-item.active {
@@ -812,7 +818,7 @@ a.nz-a-white:active {
 .nz-type-tab a:link,
 .nz-type-tab a,
 .nz-type-tab a:visited {
-  color: #02AFBB;;
+  color: #02afbb;
 }
 
 .nz-type-tab a:hover,
@@ -825,12 +831,12 @@ a.nz-a-white:active {
 }
 
 .nz-type-tab .nav-link.active,
-.nz-type-tab .show>.nav-link {
-  background-color: #02AFBB;
+.nz-type-tab .show > .nav-link {
+  background-color: #02afbb;
 }
 
 .nz-type-tab .nav-link {
-  border-bottom: solid 2px #02AFBB;
+  border-bottom: solid 2px #02afbb;
   border-radius: 0;
   border-radius: 3px 3px 0 0;
   cursor: pointer;
@@ -839,13 +845,13 @@ a.nz-a-white:active {
 .nz-sort-select {
   min-width: 70px;
   max-width: 150px;
-  width: 60%
+  width: 60%;
 }
 
 .nz-course-list-tab {
   min-width: 80px;
   max-width: 200px;
-  width: 35%
+  width: 35%;
 }
 
 /* -------- 文章內頁  -------- */
@@ -880,7 +886,7 @@ a.nz-a-white:active {
   display: block;
   width: 40px;
   height: 40px;
-  background: #7FB77E;
+  background: #7fb77e;
   text-align: center;
   font-size: 15px;
   cursor: pointer;
@@ -913,25 +919,25 @@ a.nz-a-white:active {
 .nz-article-info-div {
   display: flex;
   justify-content: space-between;
-  margin-bottom:  20px;
+  margin-bottom: 20px;
   align-items: center;
 }
 
 .nz-article-info {
   display: flex;
   color: #898989;
-  flex-wrap: wrap
+  flex-wrap: wrap;
 }
 
-.nz-tags a{
+.nz-tags a {
   text-decoration: underline;
   margin: 0 2px;
 }
-.nz-tags a.keyword{
-  text-decoration:none;
+.nz-tags a.keyword {
+  text-decoration: none;
 }
-.nz-tags a.keyword:hover{
-   cursor:default ;
+.nz-tags a.keyword:hover {
+  cursor: default;
 }
 
 /* 文章內頁 - 文章轉載 */
@@ -943,7 +949,7 @@ a.nz-a-white:active {
   padding: 8px 10px;
   color: #ffffff;
   margin: 20px auto;
-  text-align: center
+  text-align: center;
 }
 
 .nz-article-reprint a {
@@ -999,25 +1005,25 @@ a.nz-a-white:active {
 }
 
 .nz-article-main-cont tbody tr:nth-of-type(odd) {
-  background-color: #e8f0e9;
+  background-color: #53a0a61f;
 }
 
-.nz-article-main-cont th, td {
+.nz-article-main-cont th,
+td {
   padding: 0.75rem;
   vertical-align: top;
   border-top: 1px solid #dee2e6;
 }
 
-.nz-article-main-cont th { 
+.nz-article-main-cont th {
   background-color: #488f50;
   color: #ffffff;
 }
 
-
 /* -------- 文章內頁 - 附件夾檔 -------- */
 .nz-folder {
   border-top: solid 5px #898989;
-  background-color: #e8f0e9;
+  background-color: #53a0a61f;
   padding: 15px;
   margin-top: 20px;
 }
@@ -1043,8 +1049,8 @@ a.nz-a-white:active {
 }
 
 .nz-folder-card img {
-  width : 100%;
-  height : 100%;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
 }
 
@@ -1053,7 +1059,11 @@ a.nz-a-white:active {
   top: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 0.9) 120%);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 30%,
+    rgba(0, 0, 0, 0.9) 120%
+  );
 }
 .nz-file-img-title {
   font-size: 20px;
@@ -1073,7 +1083,7 @@ a.nz-a-white:active {
 .nz-file-tool {
   padding: 6px;
   background-color: #ffffff;
-  color: #02AFBB;
+  color: #02afbb;
 }
 .nz-file-tool-btn {
   font-size: 16px;
@@ -1097,7 +1107,7 @@ a.nz-a-white:active {
 .nz-login-card {
   width: 46%;
   max-width: 500px;
-  border-top: 5px solid #02AFBB;
+  border-top: 5px solid #02afbb;
   box-shadow: 6px 8px 27px rgb(0 0 0 / 10%);
   border-radius: 5px 5px 11px 11px;
   background: #ffffff;
@@ -1153,7 +1163,7 @@ a.nz-a-white:active {
 }
 
 .nz-login-btn:hover {
-  color: #02AFBB;
+  color: #02afbb;
 }
 
 .nz-login-btn img {
@@ -1175,7 +1185,7 @@ a.nz-a-white:active {
 /* --------- 聯絡我們 --------- */
 .nz-contact-card {
   width: 100%;
-  border-top: 5px solid #02AFBB;
+  border-top: 5px solid #02afbb;
   box-shadow: 6px 8px 27px rgb(0 0 0 / 10%);
   border-radius: 5px 5px 11px 11px;
   background: #ffffff;
@@ -1200,74 +1210,74 @@ a.nz-a-white:active {
   padding: 2px 15px;
 }
 
-@media(max-width: 767.98px) {
+@media (max-width: 767.98px) {
   /* --------- table rwd --------- */
   .nz-rwd-table th,
   .nz-rwd-table td {
-      margin: 0px;
-      padding: 5px 10px;
-  }
-  
-  .nz-rwd-table th {
-      display: none;
-  }
-  
-  .nz-rwd-table td {
-      display: block;
+    margin: 0px;
+    padding: 5px 10px;
   }
 
-  .nz-rwd-table tr td:nth-child(2){
-      padding-top: 15px;
+  .nz-rwd-table th {
+    display: none;
+  }
+
+  .nz-rwd-table td {
+    display: block;
+  }
+
+  .nz-rwd-table tr td:nth-child(2) {
+    padding-top: 15px;
   }
 
   .nz-rwd-table tr td:last-child {
-      padding-bottom: 15px;
+    padding-bottom: 15px;
   }
-  
+
   .nz-rwd-table td:before {
-      content: attr(data-th) " : ";
-      font-weight: bold;
-      width: 4em;
-      display: inline-block;
+    content: attr(data-th) " : ";
+    font-weight: bold;
+    width: 4em;
+    display: inline-block;
   }
 
   .nz-table-title a:link {
-      font-size: 22px;
-      color: #119796;
+    font-size: 22px;
+    color: #119796;
   }
-  
+
   .nz-rwd-table .nz-table-title:before {
-      content: none;
+    content: none;
   }
-  
+
   .nz-rwd-table th,
   .nz-rwd-table td {
-      text-align: left;
+    text-align: left;
   }
-  
+
   .nz-rwd-table th,
   .nz-rwd-table td:before {
-      color: #333;
-      font-weight: bold;
+    color: #333;
+    font-weight: bold;
   }
-  
+
   .nz-rwd-table tr {
-      border-bottom: solid 3px #eee;
+    border-bottom: solid 3px #eee;
   }
 
   .nz-rwd-table tbody tr {
-      border-bottom: solid 1px #c9c9c9;
+    border-bottom: solid 1px #c9c9c9;
   }
 
   .nz-know-type,
   .nz-course-status {
-      font-size: 16px;
+    font-size: 16px;
   }
 
   /* 文章內頁轉載 */
   .nz-article-reprint {
-      width: 100%;
-      border-radius: 50px;
+    width: 100%;
+    border-radius: 50px;
   }
 }
 /* èª²ç¨‹åˆ†é¡ž - æ¨™ç±¤ */
@@ -1278,8 +1288,8 @@ a.nz-a-white:active {
   font-weight: 600;
   color: #fff;
   transition: 0.3s ease-in;
-  border-radius: var(--border-radius-full); 
-  background: #2828FF;
+  border-radius: var(--border-radius-full);
+  background: #2828ff;
 }
 
 .nz-keyword-reprint a {
@@ -1291,216 +1301,222 @@ a.nz-a-white:active {
 }
 /* Tab 卡片 */
 .pow-card-nav.nav-tabs {
-border-bottom: 4px solid #55b1a3;
-overflow-x: auto;
-overflow-y: hidden;
-width: 100%;
-white-space: nowrap;
-display: block;
-padding-top: 5px;
+  border-bottom: 4px solid #55b1a3;
+  overflow-x: auto;
+  overflow-y: hidden;
+  width: 100%;
+  white-space: nowrap;
+  display: block;
+  padding-top: 5px;
 }
 
-.pow-card-nav .nav-item  {
-margin-right: 12px;
-display: inline-block;
+.pow-card-nav .nav-item {
+  margin-right: 12px;
+  display: inline-block;
 }
 
 .pow-card-nav.nav-tabs .nav-link {
-border: #55b1a3 solid 1px;
-margin-bottom: -5px;
-background: #fff;
-color: #55b1a3;
+  border: #55b1a3 solid 1px;
+  margin-bottom: -5px;
+  background: #fff;
+  color: #55b1a3;
 }
 
 .pow-card-nav.nav-tabs .nav-item.show .nav-link,
 .pow-card-nav.nav-tabs .nav-link.active {
-background: #55b1a3;
-color: #fff;
-bottom: 5px;
-position: relative;
-padding: 10px;
+  background: #55b1a3;
+  color: #fff;
+  bottom: 5px;
+  position: relative;
+  padding: 10px;
 }
 
 .pow-card {
-border-radius: 11px;
-overflow: hidden;
-background-color: #fff;
-box-shadow: 0 6px 27px rgb(0 0 0 / 8%);
+  border-radius: 11px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 6px 27px rgb(0 0 0 / 8%);
 }
 
 .pow-card-top-img {
-width: 100%;
-height: 200px;
-overflow: hidden;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
 }
 
 .pow-card-top-img img {
-width: 100%;
-height: 100%;
-object-fit: cover;
-transition: 0.3s;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.3s;
 }
 
 .pow-card:hover .pow-card-top-img img {
-transform: scale(1.1);
-transition: 0.3s;
+  transform: scale(1.1);
+  transition: 0.3s;
 }
 
 .pow-card-p {
-font-size: 14px;
-padding: 15px;
-color: #898989;
+  font-size: 14px;
+  padding: 15px;
+  color: #898989;
 }
 .pow-card-p h3 {
-font-size: 18px;
-font-weight: 800;
-color: #555555;
+  font-size: 18px;
+  font-weight: 800;
+  color: #555555;
+}
+
+.pow-card-btn-div {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px 15px 15px;
 }
 
 .pow-overflow-ellipsis {
-overflow: hidden;
-display: -webkit-box;
--webkit-line-clamp: 12; /*最多顯示幾行*/
--webkit-box-orient: vertical;
-min-height: 252px;
-color: #898989;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 10; /*最多顯示幾行*/
+  -webkit-box-orient: vertical;
+  height: 210px;
+  color: #898989;
 }
 
 .pow-card-date {
-font-size: 12px;
-color: #a1a1a1;
+  font-size: 12px;
+  color: #a1a1a1;
 }
 
 .pow-card-btn {
-display: block;
-font-size: 16px;
-font-weight: 600;
-margin-top: 5px;
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 5px;
 }
 
 .pow-card-angle {
-margin-left: 10px;
+  margin-left: 10px;
 }
 
 .pow-card-btn:hover .pow-card-angle {
-animation-name: anglToeLeft;
-animation-duration: 0.5s;
+  animation-name: anglToeLeft;
+  animation-duration: 0.5s;
 }
 
 /* RWD */
-@media(max-width: 991.98px) {
+@media (max-width: 991.98px) {
   .container {
-      max-width: 100%;
+    max-width: 100%;
   }
   .nz-logo,
   .nz-small-header .nz-logo {
-      height: 40px;
+    height: 40px;
   }
 
   .nz-title {
-      text-align: center;
+    text-align: center;
   }
 
   .nz-carousel {
-      margin: -15px;
+    margin: -15px;
   }
 
   .nz-carousel .carousel-inner {
-      padding: 10px 15px 15px;
+    padding: 10px 15px 15px;
   }
 
   .nz-img-word h2 {
-      font-size: 28px;
+    font-size: 28px;
   }
 
   .nz-know-theme p {
-      opacity: 1;
-      height: auto;
-      font-size: 16px;
+    opacity: 1;
+    height: auto;
+    font-size: 16px;
   }
 
   .nz-know-theme {
-      margin-bottom: 10px;
+    margin-bottom: 10px;
   }
 
   .nz-member-row {
-      margin: 0;
-      text-align: center;
+    margin: 0;
+    text-align: center;
   }
 
   .nz-member-logo {
-      padding: 15px;
+    padding: 15px;
   }
 
   footer {
-      text-align: center;
+    text-align: center;
   }
 
   .nz-community-div {
-      justify-content: center;
+    justify-content: center;
   }
   .nz-footer-right {
-      margin-top: 10px;
+    margin-top: 10px;
   }
 
   .nz-carousel .carousel-control-next,
   .nz-banner .nz-carousel .carousel-control-next {
-      right: 15px;
+    right: 15px;
   }
 
   .nz-carousel .carousel-control-prev,
   .nz-banner .nz-carousel .carousel-control-prev {
-      left: 15px;
+    left: 15px;
   }
 
   /* å°ˆæ¥­èª²ç¨‹ tabs RWD */
   .nz-type-tab .nav-link {
-      min-height: 66px;
-      display: flex;
-      align-items: center;
+    min-height: 66px;
+    display: flex;
+    align-items: center;
   }
 
   /* ç™»å…¥é  */
   .nz-login-card {
-      width: 80%;
+    width: 80%;
   }
 }
 
-@media(max-width: 1199.98px) {
+@media (max-width: 1199.98px) {
   .nz-course-type {
-      padding: 2px 10px;
+    padding: 2px 10px;
   }
 
   /* é æ•¸ */
   .nz-page-info {
-      font-size: 18px;
+    font-size: 18px;
   }
 
   .nz-page-item {
-      margin: 2px;
-      font-size: 18px;
-      width: 30px;
-      height: 30px;
+    margin: 2px;
+    font-size: 18px;
+    width: 30px;
+    height: 30px;
   }
 }
 
 /* RWD */
-@media(max-width: 575.98px) {
+@media (max-width: 575.98px) {
   /* ç™»å…¥é  */
   .nz-login-card {
-      width: 100%;
-      padding: 20px 8px;
+    width: 100%;
+    padding: 20px 8px;
   }
 
   .nz-login-card p {
-      font-size: 14px;
+    font-size: 14px;
   }
 }
-@media(max-width: 410px) {
+@media (max-width: 410px) {
   .nz-footer-logo {
-  height: 36px;
+    height: 36px;
   }
   .nz-footer-tour {
-  font-size: 12px;
+    font-size: 12px;
   }
-  }
+}
