@@ -1,0 +1,1506 @@
+body {
+  font-family: "PingFang TC", "Microsoft JhengHei", "Roboto";
+}
+
+header {
+  width: 100%;
+  z-index: 99;
+  top: 0;
+  border-top: solid 6px #3971ae;
+  background: #ffffff;
+  box-shadow: 0 2px 38px rgb(0 0 0 / 8%);
+}
+
+.nz-bg-gray {
+  background-color: #f4f4f4 !important;
+}
+
+.nz-bg-primary {
+  background-color: #808080 !important;
+}
+
+.nz-bg-danger {
+  background-color: #e86a6a !important;
+}
+
+.nz-bg-warning {
+  background-color: #ff8b32 !important;
+}
+
+.nz-bg-success {
+  background-color: #5abb7b !important;
+}
+
+.nz-bg-info {
+  background-color: #35c9c6 !important;
+}
+
+.nz-bg-darkblue {
+  background-color: #19428B !important;
+}
+
+
+.nz-bg-dark-gray {
+  background-color: #959494 !important;
+}
+
+a:link,
+a:visited {
+  color: #02AFBB;
+}
+
+a:hover,
+a:active,
+a:focus {
+  text-decoration: none;
+  color: #119796;
+}
+
+.nz-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.nz-primary {
+  color: #808080;
+}
+
+a.nz-primary:hover,
+a .nz-primary:hover {
+  color: #02AFBB;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.nz-gray {
+  color: #e6e6e6;
+}
+
+.nz-dark-gray {
+  color: #959494;
+}
+
+.nz-black,
+.nz-black:link {
+  color: #555555;
+}
+
+a.nz-black:hover,
+a .nz-black:hover {
+  color: #119796;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.nz-warning {
+  color: #ff8b32
+}
+
+.btn:focus {
+  box-shadow: none;
+}
+
+/* 通用按鈕 */
+.nz-btn {
+  padding: 5px 20px;
+  border-radius: 6px;
+}
+
+.nz-lg-btn {
+  padding: 8px 20px;
+  border-radius: 25px;
+  width: 100%;
+  max-width: 450px;
+}
+
+.nz-btn-primary,
+.nz-btn-primary:link {
+  background-color: #119796;
+  color: #ffffff;
+}
+
+.nz-btn-primary:hover,
+.nz-btn-primary:active,
+.nz-btn-primary:focus,
+.active.nz-btn-primary {
+  background-color: #02AFBB;
+  color: #ffffff;
+}
+
+/* 超出寬度省略字... */
+.nz-overflow-ellipsis {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.nz-overflow-ellipsis-2 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.nz-overflow-ellipsis-3 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+/* 通用輪播圖 */
+.nz-carousel {
+  margin: 0 -30px;
+}
+
+.nz-carousel .carousel-indicators {
+  bottom: -45px;
+}
+
+.nz-carousel .carousel-indicators li {
+  background-color: #119796;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  margin: 0 6px;
+}
+
+.nz-carousel .carousel-inner {
+  padding: 10px 30px 30px;
+}
+
+.nz-carousel .carousel-control-next,
+.nz-carousel .carousel-control-prev {
+  font-size: 24px;
+  color: #1d1d1d;
+  opacity: 0.3;
+  width: 5%;
+}
+
+.nz-carousel-btn {
+  background-color: #f5f5f5;
+  padding: 5px 6px;
+  border-radius: 4px;
+}
+
+.nz-carousel-btn:hover { 
+  background-color: #e9e9e9;
+}
+
+
+.nz-carousel .carousel-control-next {
+  right: -20px;
+}
+
+.nz-carousel .carousel-control-prev {
+  left: -20px;
+}
+
+.nz-banner .nz-carousel .carousel-control-next {
+  right: 10px;
+  opacity: 0.7;
+}
+
+.nz-banner .nz-carousel .carousel-control-prev {
+  left: 10px;
+  opacity: 0.7;
+}
+
+/* ----- header ----- */
+.nz-logo {
+  height: 50px;
+  position: relative;
+  transition: 0.5s;
+}
+
+.nz-nav {
+  font-size: 18px;
+  padding: 15px 0;
+}
+
+.nz-nav-item {
+  padding: 10px 15px;
+}
+
+.nz-nav-item a{
+  align-items: center!important;
+}
+
+.nz-nav-item:last-child {
+  padding: 10px 0 10px 15px;
+}
+
+.nz-user-pc {
+  color: #898989;
+  margin-right: 5px;
+}
+
+.nz-user {
+  background-color: #898989;
+  color: #ffffff;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
+
+.nz-navbar-nav .nz-user {
+  background-color: #ffffff;
+  color: #898989;
+  width: 32px;
+  height: 32px;
+  font-size: 16px;
+  margin-right: 15px;
+}
+
+.nz-menu {
+  font-size: 20px;
+  background-color: #3C3C3C;
+}
+
+.nz-menu a:link,
+.nz-menu li a:visited {
+  color: #ffffff;
+}
+.nz-menu li:hover a,
+.nz-menu li.active a {
+  color: #fff500;
+}
+
+.nz-menu li {
+  padding: 6px 0;
+}
+
+.nz-menu li:hover,
+.nz-menu li.active {
+  border-bottom: #fff500 solid 3px;
+  box-sizing: border-box;
+  padding: 6px 0 3px;
+}
+
+.nz-title {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.nz-title-2 {
+  font-size: 28px;
+  font-weight: 900;
+  color: #02757F;
+}
+
+.nz-title-3 {
+  font-size: 28px;
+  font-weight: bolder;
+  color:#1a9d90;
+}
+
+.nz-title-4 {
+  text-indent: 1em;
+  font-size: 22px;
+  font-weight: bolder;
+  color:#6f9d1a;
+}
+
+.nz-subtitle {
+  font-size: 18px;
+  color: #ff8b32;
+  margin-left: 12px;
+}
+
+.nz-menu-bar {
+  color: #02AFBB;
+  font-size: 26px;
+}
+
+.nz-navbar-nav {
+  padding: 10px 40px;
+  font-size: 26px;
+  font-weight: 400;
+  background-color: #02AFBB;
+}
+
+.nz-navbar-nav a {
+  color: #ffffff;
+}
+
+.nz-navbar-nav .active > a {
+  color: #fff500;
+}
+
+.nz-navbar-collapse {
+  height: 100vh;
+  overflow: auto;
+  background-color: #02AFBB;
+}
+
+.nz-navbar-collapse > .nz-navbar-nav {
+  padding-bottom: 120px;
+}
+
+.nav-item hr {
+  border-color: #ffffff;
+}
+
+/* 滾輪下拉後縮小 header */
+.nz-small-header {
+  transition: 0.5s;
+  border-top: solid 3px #02AFBB;
+}
+.nz-small-header .nz-logo {
+  height: 45px;
+}
+
+.nz-small-header .nz-nav {
+  padding: 8px 0;
+}
+
+.nz-small-header .nz-menu {
+  font-size: 18px;
+}
+/* menu 第二層下拉選單 */
+.nz-dropdown .dropdown-menu {
+  border-radius: 0 0 11px 11px;
+  border: none;
+  box-shadow: 6px 8px 27px rgba(0, 0, 0, 0.1);
+}
+.nz-dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+.nz-dropdown .dropdown-menu a.dropdown-item {
+  color: #02AFBB;
+  padding: 10px 25px;
+}
+
+/* 手機 menu 第二層下拉選單*/
+.nz-child-menu .nav-item {
+  color: #ffffff;
+  padding: 8px 0;
+}
+
+.nz-caret-down,
+.collapsed .nz-caret-up {
+  display: none;
+}
+
+.collapsed .nz-caret-down {
+  display: block;
+}
+
+/* ----- banner 輪播圖 ----- */
+.nz-banner .carousel-inner {
+  height: 290px;
+  padding: 0 30px 15px;
+}
+
+.nz-banner .carousel-item {
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+/* ----- 焦點訊息 ----- */
+.nz-focus-item {
+  border-left: solid 3px #79b3e5;
+  padding: 0 0 0 20px;
+  margin: 28px 0;
+}
+
+.nz-focus-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.nz-focus-date {
+  font-size: 12px;
+  color: #808080;
+}
+
+/* ----- 專業課程 ----- */
+.nz-course-card {
+  border: 1px solid #f0f0f0;
+  box-shadow: 6px 8px 27px rgba(0, 0, 0, 0.1);
+  border-radius: 11px;
+  background: #ffffff;
+  padding: 18px;
+  margin: 5px 0;
+}
+
+.nz-course-img {
+  width: 30%;
+  height: 80px;
+}
+
+.nz-course-info {
+  width: calc(100% - 30%);
+  padding-left: 12px;
+}
+
+.nz-course-title {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.4;
+  min-height: 50.3px;
+}
+
+.nz-course-type {
+  color: #ffffff;
+  padding: 2px 15px;
+  border-radius: 25px;
+  font-size: 12px;
+  background-color: #ffab6a;
+  text-align: center;
+  display: inline-block;
+}
+
+.nz-course-p {
+  font-size: 14px;
+}
+
+/* ------------- 淨零知識 -------------- */
+.nz-know-theme {
+  position: relative;
+  border-radius: 11px;
+  height: 180px;
+  overflow: hidden;
+}
+
+.nz-know-theme h2 {
+  transition: 0.5s;
+}
+
+.nz-know-theme p {
+  font-size: 14px;
+  transition: 0.5s ease-out;
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+  margin-bottom: 0;
+}
+
+.nz-know-theme:hover p {
+  opacity: 1;
+  height: auto;
+  transition: 0.5s ease-in;
+}
+
+.nz-know-theme:hover h2 {
+  font-size: 31px;
+  transition: 0.5s;
+}
+
+.nz-img-word {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  color: #ffffff;
+  padding: 15px;
+  text-align: center;
+}
+
+.nz-mask {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(0 0 0 / 50%);
+}
+
+/* 淨零知識 + 專業課程卡片 */
+.nz-know-card {
+  background-color: #fff;
+  border-radius: 11px;
+  overflow: hidden;
+  min-height: 350px;
+  margin: 15px 0;
+  box-shadow: 0 6px 27px rgba(0, 0, 0, 0.08);
+}
+.nz-course-bg-card {
+  background-color: #fff;
+  border-radius: 11px;
+  overflow: hidden;
+  min-height: 390px;
+  margin: 15px 0;
+  box-shadow: 0 6px 27px rgba(0, 0, 0, 0.08);
+}
+.nz-know-card-img,
+.nz-course-bg-card-img {
+  width: 100%;
+  height: 180px;
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.nz-know-card-img img,
+.nz-course-bg-card-img img {
+  transition: 0.3s;
+}
+
+.nz-know-card:hover .nz-know-card-img img,
+.nz-course-bg-card:hover .nz-course-bg-card-img img {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+.nz-flag {
+  position: absolute;
+  background-color: #ff8b32;
+  top: 12px;
+  right: -29px;
+  width: 115px;
+  transform: rotate(45deg);
+  color: #ffffff;
+  text-align: center;
+  padding: 5px;
+  font-family: sans-serif;
+}
+
+.nz-know-card-info,
+.nz-course-bg-card-info {
+  padding: 10px 15px;
+}
+
+.nz-know-card-info p,
+.nz-course-bg-card-info p {
+  font-size: 14px;
+  color: #898989;
+  min-height: 15px;
+}
+
+.nz-know-type,
+.nz-course-status {
+  display: inline-block;
+  background-color: #7fb77e;
+  color: #ffffff;
+  padding: 2px 15px;
+  border-radius: 25px;
+  font-size: 12px;
+  margin: 5px 0;
+}
+
+.nz-know-card-title,
+.nz-course-bg-card-title {
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+.nz-know-date,
+.nz-course-date {
+  font-size: 12px;
+  color: #a1a1a1;
+}
+
+/* --------------- 人才聯盟成員 ---------- */
+.nz-member-row {
+  margin: 0 -70px;
+}
+.nz-member-logo {
+  padding: 25px 70px;
+}
+
+.nz-member-logo img {
+  width: 80%;
+}
+
+/* ---------- footer ------------ */
+footer {
+  background-color: #02AFBB;
+  padding: 30px 0;
+  color: #ffffff;
+  text-align: left;
+}
+
+.nz-footer-title {
+  letter-spacing: 3px;
+}
+
+.nz-community-i {
+  background-color: #ffffff4f;
+  color: #ffffff;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.nz-connection {
+  font-size: 16px;
+}
+
+.nz-vertical-line {
+  width: 1px;
+  height: 100%;
+  background-color: #ffffff;
+}
+
+.nz-hr {
+  border-top: 1px solid #ffffff;
+}
+
+a.nz-a-white:link,
+a.nz-a-white:visited {
+  color: #ffffff;
+}
+
+a.nz-a-white:hover,
+a.nz-a-white:active {
+  opacity: 0.8;
+  color: #f3f3f3;
+}
+
+.nz-footer-logo {
+  height: 48px;
+}
+
+.nz-footer-right {
+  font-size: 12px;
+}
+
+/* -------------- 麵包屑 ----------------- */
+.nz-breadcrumb {
+  background-color: #ffffff;
+  color: #898989;
+  padding: 20px 0;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.nz-breadcrumb li {
+  display: flex;
+  align-items: center;
+}
+
+.nz-breadcrumb a:link,
+.nz-breadcrumb a:visited {
+  color: #898989;
+}
+
+.nz-breadcrumb a:hover,
+.nz-breadcrumb .active a {
+  color: #2D2C31;
+}
+
+.nz-breadcrumb a:active {
+  color: #408347;
+}
+
+.nz-home-i {
+  background-color: #898989;
+  color: #ffffff;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+
+/* ---------------------- 淨零知識 --------------- */
+/* table  */
+.nz-rwd-table {
+  overflow: hidden;
+  width: 100%;
+}
+
+.nz-rwd-table tbody tr:nth-of-type(odd) {
+  background-color: #e8f0e9;
+}
+
+.nz-rwd-table th {
+  border-top: #e8f0e9 solid 3px;
+}
+
+.nz-rwd-table th:first-child {
+  border-radius: 11px 0 0 0;
+}
+
+.nz-rwd-table th:last-child {
+  border-radius: 0 11px 0 0;
+}
+
+.nz-rwd-table td:before {
+  display: none;
+}
+
+.nz-rwd-table th,
+.nz-rwd-table td {
+  display: table-cell;
+  padding: 0.25em 0.5em;
+}
+
+.nz-rwd-table th,
+.nz-rwd-table td {
+  padding: 1em;
+}
+
+.nz-table-title a:link {
+  color: #555555;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.nz-table-title a:visited {
+  color: #02AFBB;
+}
+
+.nz-table-title a:hover {
+  color: #119796;
+  transition: 0.2s;
+  text-decoration: none;
+}
+
+.nz-table-title a:active {
+  color: #408347;
+}
+
+/* ---------- 分頁 ---------- */
+.nz-page-info {
+  font-size: 20px;
+  color: #808080;
+}
+.nz-page-item {
+  margin: 4px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.nz-page-ellipsis {
+  margin: 8px;
+  font-size: 20px;
+  color: #808080;
+}
+
+.nz-page-item:hover {
+  background-color: #e8f0e9;
+}
+
+.nz-page-item.active {
+  background-color: #119796;
+}
+
+.nz-page-item.active a:link,
+.nz-page-item.active a:visited {
+  color: #ffffff;
+}
+
+.nz-page-item a:link {
+  color: #808080;
+}
+
+/* --------------- 專業課程 ------------ */
+.nz-type-tab a:link,
+.nz-type-tab a,
+.nz-type-tab a:visited {
+  color: #02AFBB;;
+}
+
+.nz-type-tab a:hover,
+.nz-type-tab a:focus {
+  color: #119796;
+}
+
+.nz-type-tab a:active {
+  color: #408347;
+}
+
+.nz-type-tab .nav-link.active,
+.nz-type-tab .show>.nav-link {
+  background-color: #02AFBB;
+}
+
+.nz-type-tab .nav-link {
+  border-bottom: solid 2px #02AFBB;
+  border-radius: 0;
+  border-radius: 3px 3px 0 0;
+  cursor: pointer;
+}
+
+.nz-sort-select {
+  min-width: 70px;
+  max-width: 150px;
+  width: 60%
+}
+
+.nz-course-list-tab {
+  min-width: 80px;
+  max-width: 200px;
+  width: 35%
+}
+
+/* -------- 文章內頁  -------- */
+.nz-share {
+  display: flex;
+  justify-content: end;
+  margin-bottom: 5px;
+  align-items: center;
+}
+
+.nz-share.fixed {
+  position: fixed;
+  right: 20px;
+  bottom: 50px;
+  z-index: 999;
+  flex-direction: column-reverse;
+}
+
+.nz-line {
+  background-color: #00c300;
+}
+
+.nz-fb {
+  background-color: #1877f2;
+}
+
+.nz-mail {
+  background-color: #61c1c2;
+}
+
+.nz-contact-btn:link {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background: #7FB77E;
+  text-align: center;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 50%;
+  line-height: 40px;
+  color: #ffffff;
+  margin-left: 10px;
+}
+
+.nz-contact-btn:visited,
+.nz-contact-btn:hover,
+.nz-contact-btn:active {
+  color: #ffffff;
+  opacity: 0.9;
+}
+
+.fixed .nz-contact-btn {
+  margin-bottom: 25px;
+  margin-left: 0;
+}
+
+.fixed .nz-fixed-hide.nz-contact-btn {
+  display: none;
+}
+
+.nz-article-title {
+  border-top: solid 2px #eee;
+}
+
+.nz-article-info-div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom:  20px;
+  align-items: center;
+}
+
+.nz-article-info {
+  display: flex;
+  color: #898989;
+  flex-wrap: wrap
+}
+
+.nz-tags a{
+  text-decoration: underline;
+  margin: 0 2px;
+}
+.nz-tags a.keyword{
+  text-decoration:none;
+}
+.nz-tags a.keyword:hover{
+   cursor:default ;
+}
+
+/* 文章內頁 - 文章轉載 */
+.nz-article-reprint {
+  min-width: 200px;
+  width: 55%;
+  background-color: #ff8b32;
+  border-radius: 25px;
+  padding: 8px 10px;
+  color: #ffffff;
+  margin: 20px auto;
+  text-align: center
+}
+
+.nz-article-reprint a {
+  color: #ffffff;
+}
+
+.nz-article-reprint:hover {
+  opacity: 0.8;
+}
+
+/* -------- 文章內頁 - 文章內容定義 -------- */
+.nz-article-main-cont {
+  word-break: break-word;
+}
+.nz-article-main-cont h1 {
+  font-size: 2.5rem;
+}
+
+.nz-article-main-cont h2 {
+  font-size: 2rem;
+}
+
+.nz-article-main-cont h3 {
+  font-size: 1.75rem;
+}
+
+.nz-article-main-cont h4 {
+  font-size: 1.5rem;
+}
+
+.nz-article-main-cont h5 {
+  font-size: 1.25rem;
+}
+
+.nz-article-main-cont h6 {
+  font-size: 1rem;
+}
+
+.nz-article-main-cont p {
+  margin-top: 1rem;
+  color: #333333;
+}
+
+.nz-article-main-cont img {
+  max-width: 100%;
+}
+
+/* -------- 章內頁 - 文章內容定義 - Table -------- */
+.nz-article-main-cont table {
+  max-width: 100% !important;
+  width: 100%;
+  background-color: transparent;
+}
+
+.nz-article-main-cont tbody tr:nth-of-type(odd) {
+  background-color: #e8f0e9;
+}
+
+.nz-article-main-cont th, td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+
+.nz-article-main-cont th { 
+  background-color: #488f50;
+  color: #ffffff;
+}
+
+
+/* -------- 文章內頁 - 附件夾檔 -------- */
+.nz-folder {
+  border-top: solid 5px #898989;
+  background-color: #e8f0e9;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+.nz-folder-title {
+  color: #555555;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.nz-folder-card {
+  background-color: #ffffff;
+  border-radius: 6px;
+  overflow: hidden;
+  margin: 8px 0;
+}
+
+.nz-folder-img {
+  width: 100%;
+  height: 110px;
+  position: relative;
+}
+
+.nz-folder-card img {
+  width : 100%;
+  height : 100%;
+  object-fit: cover;
+}
+
+.nz-file-mask {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 0.9) 120%);
+}
+.nz-file-img-title {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.nz-file-name {
+  position: absolute;
+  bottom: 0px;
+  font-size: 14px;
+  padding: 5px 8px;
+  color: #ffffff;
+  word-break: break-all;
+  height: 30px;
+}
+
+.nz-file-tool {
+  padding: 6px;
+  background-color: #ffffff;
+  color: #02AFBB;
+}
+.nz-file-tool-btn {
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.nz-file-office {
+  font-size: 56px;
+  text-align: center;
+  color: #ffffff;
+  height: 110px;
+  background-color: #61c1c2;
+}
+
+.ekko-lightbox-nav-overlay a {
+  color: #ffffff;
+  opacity: 0.5;
+}
+
+/* --------- 會員登入 --------- */
+.nz-login-card {
+  width: 46%;
+  max-width: 500px;
+  border-top: 5px solid #02AFBB;
+  box-shadow: 6px 8px 27px rgb(0 0 0 / 10%);
+  border-radius: 5px 5px 11px 11px;
+  background: #ffffff;
+  padding: 20px 40px;
+  margin: 5px auto;
+  text-align: center;
+  color: #555555;
+}
+
+.nz-img-check {
+  max-width: 115px;
+}
+
+.nz-refresh-check {
+  cursor: pointer;
+  color: #555555;
+}
+
+.nz-refresh-check:hover {
+  color: #ff8b32;
+}
+
+.nz-or-box {
+  border-top: 1px solid #898989;
+  padding: 10px 0;
+  margin-top: 27px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nz-or-box:before {
+  content: "æˆ–";
+  color: #898989;
+  display: inline-block;
+  position: absolute;
+  top: -15px;
+  background: #fff;
+  padding: 0 20px;
+}
+
+.nz-login-btn:link,
+.nz-login-btn:visited {
+  display: flex;
+  justify-content: center;
+  padding: 8px 25px;
+  background-color: #ffffff;
+  border: 1px solid #ced4da;
+  border-radius: 25px;
+  text-align: center;
+  margin: 12px 0;
+  color: #555555;
+}
+
+.nz-login-btn:hover {
+  color: #02AFBB;
+}
+
+.nz-login-btn img {
+  width: 22px;
+}
+
+.nz-login-btn-inner {
+  width: 185px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.nz-error-form {
+  color: #e86a6a;
+  text-align: left;
+}
+
+/* --------- 聯絡我們 --------- */
+.nz-contact-card {
+  width: 100%;
+  border-top: 5px solid #02AFBB;
+  box-shadow: 6px 8px 27px rgb(0 0 0 / 10%);
+  border-radius: 5px 5px 11px 11px;
+  background: #ffffff;
+  padding: 20px;
+  margin: 5px 0;
+  color: #555555;
+}
+
+.nz-required {
+  color: #e86a6a;
+}
+
+.nz-text-count {
+  text-align: right;
+  font-size: 14px;
+  margin: 5px 0;
+  color: #898989;
+}
+
+.nz-terms {
+  border-left: 3px solid #119796;
+  padding: 2px 15px;
+}
+
+@media(max-width: 767.98px) {
+  /* --------- table rwd --------- */
+  .nz-rwd-table th,
+  .nz-rwd-table td {
+      margin: 0px;
+      padding: 5px 10px;
+  }
+  
+  .nz-rwd-table th {
+      display: none;
+  }
+  
+  .nz-rwd-table td {
+      display: block;
+  }
+
+  .nz-rwd-table tr td:nth-child(2){
+      padding-top: 15px;
+  }
+
+  .nz-rwd-table tr td:last-child {
+      padding-bottom: 15px;
+  }
+  
+  .nz-rwd-table td:before {
+      content: attr(data-th) " : ";
+      font-weight: bold;
+      width: 4em;
+      display: inline-block;
+  }
+
+  .nz-table-title a:link {
+      font-size: 22px;
+      color: #119796;
+  }
+  
+  .nz-rwd-table .nz-table-title:before {
+      content: none;
+  }
+  
+  .nz-rwd-table th,
+  .nz-rwd-table td {
+      text-align: left;
+  }
+  
+  .nz-rwd-table th,
+  .nz-rwd-table td:before {
+      color: #333;
+      font-weight: bold;
+  }
+  
+  .nz-rwd-table tr {
+      border-bottom: solid 3px #eee;
+  }
+
+  .nz-rwd-table tbody tr {
+      border-bottom: solid 1px #c9c9c9;
+  }
+
+  .nz-know-type,
+  .nz-course-status {
+      font-size: 16px;
+  }
+
+  /* 文章內頁轉載 */
+  .nz-article-reprint {
+      width: 100%;
+      border-radius: 50px;
+  }
+}
+/* èª²ç¨‹åˆ†é¡ž - æ¨™ç±¤ */
+.nz-keyword-reprint {
+  padding: 12px 40px;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 600;
+  color: #fff;
+  transition: 0.3s ease-in;
+  border-radius: var(--border-radius-full); 
+  background: #2828FF;
+}
+
+.nz-keyword-reprint a {
+  color: #ffffff;
+}
+
+.nz-keyword-reprint:hover {
+  opacity: 0.8;
+}
+/* Tab 卡片 */
+.pow-card-nav.nav-tabs {
+border-bottom: 4px solid #55b1a3;
+overflow-x: auto;
+overflow-y: hidden;
+width: 100%;
+white-space: nowrap;
+display: block;
+padding-top: 5px;
+}
+
+.pow-card-nav .nav-item  {
+margin-right: 12px;
+display: inline-block;
+}
+
+.pow-card-nav.nav-tabs .nav-link {
+border: #55b1a3 solid 1px;
+margin-bottom: -5px;
+background: #fff;
+color: #55b1a3;
+}
+
+.pow-card-nav.nav-tabs .nav-item.show .nav-link,
+.pow-card-nav.nav-tabs .nav-link.active {
+background: #55b1a3;
+color: #fff;
+bottom: 5px;
+position: relative;
+padding: 10px;
+}
+
+.pow-card {
+border-radius: 11px;
+overflow: hidden;
+background-color: #fff;
+box-shadow: 0 6px 27px rgb(0 0 0 / 8%);
+}
+
+.pow-card-top-img {
+width: 100%;
+height: 200px;
+overflow: hidden;
+}
+
+.pow-card-top-img img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+transition: 0.3s;
+}
+
+.pow-card:hover .pow-card-top-img img {
+transform: scale(1.1);
+transition: 0.3s;
+}
+
+.pow-card-p {
+font-size: 14px;
+padding: 15px;
+color: #898989;
+}
+.pow-card-p h3 {
+font-size: 18px;
+font-weight: 800;
+color: #555555;
+}
+
+.pow-overflow-ellipsis {
+overflow: hidden;
+display: -webkit-box;
+-webkit-line-clamp: 12; /*最多顯示幾行*/
+-webkit-box-orient: vertical;
+min-height: 252px;
+color: #898989;
+}
+
+.pow-card-date {
+font-size: 12px;
+color: #a1a1a1;
+}
+
+.pow-card-btn {
+display: block;
+font-size: 16px;
+font-weight: 600;
+margin-top: 5px;
+}
+
+.pow-card-angle {
+margin-left: 10px;
+}
+
+.pow-card-btn:hover .pow-card-angle {
+animation-name: anglToeLeft;
+animation-duration: 0.5s;
+}
+
+/* RWD */
+@media(max-width: 991.98px) {
+  .container {
+      max-width: 100%;
+  }
+  .nz-logo,
+  .nz-small-header .nz-logo {
+      height: 40px;
+  }
+
+  .nz-title {
+      text-align: center;
+  }
+
+  .nz-carousel {
+      margin: -15px;
+  }
+
+  .nz-carousel .carousel-inner {
+      padding: 10px 15px 15px;
+  }
+
+  .nz-img-word h2 {
+      font-size: 28px;
+  }
+
+  .nz-know-theme p {
+      opacity: 1;
+      height: auto;
+      font-size: 16px;
+  }
+
+  .nz-know-theme {
+      margin-bottom: 10px;
+  }
+
+  .nz-member-row {
+      margin: 0;
+      text-align: center;
+  }
+
+  .nz-member-logo {
+      padding: 15px;
+  }
+
+  footer {
+      text-align: center;
+  }
+
+  .nz-community-div {
+      justify-content: center;
+  }
+  .nz-footer-right {
+      margin-top: 10px;
+  }
+
+  .nz-carousel .carousel-control-next,
+  .nz-banner .nz-carousel .carousel-control-next {
+      right: 15px;
+  }
+
+  .nz-carousel .carousel-control-prev,
+  .nz-banner .nz-carousel .carousel-control-prev {
+      left: 15px;
+  }
+
+  /* å°ˆæ¥­èª²ç¨‹ tabs RWD */
+  .nz-type-tab .nav-link {
+      min-height: 66px;
+      display: flex;
+      align-items: center;
+  }
+
+  /* ç™»å…¥é  */
+  .nz-login-card {
+      width: 80%;
+  }
+}
+
+@media(max-width: 1199.98px) {
+  .nz-course-type {
+      padding: 2px 10px;
+  }
+
+  /* é æ•¸ */
+  .nz-page-info {
+      font-size: 18px;
+  }
+
+  .nz-page-item {
+      margin: 2px;
+      font-size: 18px;
+      width: 30px;
+      height: 30px;
+  }
+}
+
+/* RWD */
+@media(max-width: 575.98px) {
+  /* ç™»å…¥é  */
+  .nz-login-card {
+      width: 100%;
+      padding: 20px 8px;
+  }
+
+  .nz-login-card p {
+      font-size: 14px;
+  }
+}
+@media(max-width: 410px) {
+  .nz-footer-logo {
+  height: 36px;
+  }
+  .nz-footer-tour {
+  font-size: 12px;
+  }
+  }

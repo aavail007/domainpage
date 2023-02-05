@@ -1,0 +1,132 @@
+/*ä¿®æ­£éŒ¨é»žéŒ¯ä½style*/
+.target-fix {
+  position: relative;
+  top: -160px;
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+
+/*å½±ç‰‡æ»¿ç‰ˆstyle*/
+p.video-container {
+  margin-top: 10px !important;
+}
+
+.video-container {
+  position: relative;
+  display: block;
+  height: 0;
+  padding: 0;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90% !important;
+  height: 90% !important;
+}
+
+
+/*åœ˜éšŠstyle*/
+.nz-team {
+  font-size: 1em;
+}
+
+.nz-team-title1 {
+  font-size: 24px;
+  font-weight: bolder;
+  text-indent: 10px;
+  padding-top: 25px;
+  padding-left: 200px;
+   margin-bottom: -23px;
+}
+
+.nz-team-title2 {
+  font-size: 20px;
+  font-weight: bolder;
+  color: #1a9d90;
+}
+
+.nz-team-title3 {
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.nz-people-img {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.nz-director-img {
+  width: 350px;
+  height: 350px;
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 25%;
+}
+
+.nz-teamb-img {
+  width: 280px;
+  height: 280px;
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 25%;
+}
+
+.nz-teams-img {
+  width: 160px;
+  height: 160px;
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 25%;
+}
+
+
+.nz-team-word {
+  position: relative;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  padding: 15px 15px 15px 20px;
+  text-align: left;
+  border-bottom-width: 1px;
+  border-bottom-style: dotted;
+  border-bottom-color: #abceae;
+}
+.nz-team-list{
+  padding-top: 15px;
+  white-space: nowrap;
+}
+
+.nz-team-list h4{
+  white-space: nowrap;
+}
+
+@media(max-width: 767.98px) {
+  .nz-team-title1 {        
+      padding-top: 20px;
+      padding-left: 50px;
+      margin-bottom: 0px;
+  }
+
+  .nz-team-word {
+      text-align: center;
+  }
+  .nz-team-title3 {
+      font-weight: normal;
+  }
+
+  .nz-team-list h4{
+      padding-top: 10px;
+      text-align: center;
+  }
+}
