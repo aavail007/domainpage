@@ -1403,6 +1403,84 @@ td {
   animation-duration: 0.5s;
 }
 
+/*#region 推薦證言*/
+
+#recommend_zone .card {
+  border: none;
+  -webkit-box-shadow: rgba(204,204,204,0.6) 5px 5px 20px;
+  box-shadow: rgba(204,204,204,0.6) 5px 5px 20px;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+#recommend_zone .img_mask {
+  width: 76px;
+  height: 76px;
+  overflow: hidden;
+  border-radius: 100px;
+  transition: all 0.3s;
+}
+
+#recommend_zone a.slick-center .img_mask {
+  width: 90px;
+  height: 90px;
+  overflow: hidden;
+  border-radius: 100px;
+}
+
+#recommend_zone a.slick-center {
+  margin-top: 30px;
+}
+
+#recommend_zone .img_mask img {
+  -webkit-filter: saturate(0.8);
+  height: 100%;
+  z-index: 1;
+}
+
+#recommend_zone .con {
+  font-size: 1.1rem;
+  font-weight: normal;
+  line-height: 1.4;
+  height: 100px;
+}
+
+#recommend_zone .name {
+  font-size: 1.1rem;
+  font-weight: bold;
+  float: right;
+  letter-spacing: 0.1px;
+}
+
+#recommend_zone .position {
+  font-size: 1rem;
+  font-weight: normal;
+  letter-spacing: 0.1px;
+}
+
+#recommend_zone .user_pic {
+  margin-bottom: -55px;
+  z-index: 2;
+}
+
+.slick-dots li.slick-active button::before {
+  color: #1EA3BC !important;
+  background: #1EA3BC !important;
+  height: 7px !important;
+}
+
+.slick-dots li button:before {
+  width: 7px !important;
+  height: 7px !important;
+}
+
+.slick-dots li.slick-active button:before {
+  width: 30px !important;
+  height: 7px !important;
+}
+
+/*#endregion 推薦證言*/
+
 /* RWD */
 @media (max-width: 991.98px) {
   .container {

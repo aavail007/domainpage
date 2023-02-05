@@ -34,7 +34,7 @@
     <script src="js/plugin/bootstrap.min.js"></script>
     <!--輪播-->
     <link href="css/slick.min.css" rel="stylesheet" />
-    <link href="css/slick-theme.css" rel="stylesheet" />
+    <link href="css/slick-theme.min.css" rel="stylesheet" />
     <script src="js/slick.min.js"></script>
     <!-- 淨零永續學校通用 js -->
     <script src="js/nz-script.js"></script>
@@ -52,7 +52,7 @@
     <script src="JsPage/BaseViewGroup.js"></script>
     <script src="JsPage/BaseViewLog.js"></script>
     <!-- 淨零永續學校首頁js -->
-    <script src="JsPage/index.js"></script>
+    <!-- <script src="JsPage/index.js"></script> -->
     <!-- Google Tag Manager (noscript) -->
     <noscript>
         <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N7L52KL" height="0" width="0"
@@ -482,30 +482,121 @@
                 </div>
             </div>
         </section>
-				 <h1 class="nz-title nz-primary my-4">
-                 延伸閱讀
-                </h1>
-                <!-- 知識卡片 -->
-                <div class="row" id="divInfo1Box2">
-                </div>
-                <!-- 更多 -->
-                <div class="text-right mt-lg-0 mt-3 mb-4">
-                    <a href="knowledge.html">
-                        <button class="btn nz-btn nz-btn-primary" id="btnInfo2more">更 多</button>
-                    </a>
-                </div>
+        <!-- 延伸閱讀 -->
+        <section>
+          <h1 class="nz-title nz-primary my-4">延伸閱讀</h1>
+           <!-- 知識卡片 -->
+           <div class="row" id="divInfo1Box2"></div>
+           <!-- 更多 -->
+           <div class="text-right mt-lg-0 mt-3 mb-4">
+               <a href="knowledge.html">
+                   <button class="btn nz-btn nz-btn-primary" id="btnInfo2more">更 多</button>
+               </a>
+           </div>
+        </section>
+
+        <!-- 學員證言 -->
+        <section class="">
+          <div id="recommend_zone">
+            <h1 class="nz-title nz-primary my-4">學員證言</h1>
+            <section id="peo_recommend" class="slider mt-4">
+              <div>
+                <!-- Simple card -->                            
+                <div class="user_pic">                                
+                  <div class="img_mask m-auto d-flex justify-content-center">
+                    <img style="saturate(1)" src="https://college.itri.org.tw/api/TM_AttFile_Attachment_Download?attNo=64e3d25d-fb81-44a4-b90e-ed478c01d5c7" alt="程式開發人員 林先生-預覽圖">
+                  </div>                            
+                </div>                            
+                <div class="card">                                
+                  <div class="card-body">                                    
+                    <div class="con mt-4 mb-3 text_ellipsis_4">謝謝工研院的夥伴辦理這堂課程，課程本身與配套活動都令人滿意。</div>
+                    <div class="d-flex flex-column text-right mt-3">                                        
+                      <div class="name">程式開發人員 林先生</div>                                        
+                      <div class="position">XXXX技能培訓班學員</div>                                    
+                    </div>                                
+                  </div> <!-- end card-body-->                            
+                </div> <!-- end card-->                        
+              </div>
+              <div>
+                <!-- Simple card -->                            
+                <div class="user_pic">                                
+                  <div class="img_mask m-auto d-flex justify-content-center">
+                    <img style="saturate(1)" src="https://college.itri.org.tw/api/TM_AttFile_Attachment_Download?attNo=64e3d25d-fb81-44a4-b90e-ed478c01d5c7" alt="程式開發人員 林先生-預覽圖">
+                  </div>                            
+                </div>                            
+                <div class="card">                                
+                  <div class="card-body">                                    
+                    <div class="con mt-4 mb-3 text_ellipsis_4">謝謝工研院的夥伴辦理這堂課程，課程本身與配套活動都令人滿意。</div>
+                    <div class="d-flex flex-column text-right mt-3">                                        
+                      <div class="name">程式開發人員 林先生</div>                                        
+                      <div class="position">XXXX技能培訓班學員</div>                                    
+                    </div>                                
+                  </div> <!-- end card-body-->                            
+                </div> <!-- end card-->                        
+              </div>
+              <div>
+                <!-- Simple card -->                            
+                <div class="user_pic">                                
+                  <div class="img_mask m-auto d-flex justify-content-center">
+                    <img style="saturate(1)" src="https://college.itri.org.tw/api/TM_AttFile_Attachment_Download?attNo=64e3d25d-fb81-44a4-b90e-ed478c01d5c7" alt="程式開發人員 林先生-預覽圖">
+                  </div>                            
+                </div>                            
+                <div class="card">                                
+                  <div class="card-body">                                    
+                    <div class="con mt-4 mb-3 text_ellipsis_4">謝謝工研院的夥伴辦理這堂課程，課程本身與配套活動都令人滿意。</div>
+                    <div class="d-flex flex-column text-right mt-3">                                        
+                      <div class="name">程式開發人員 林先生</div>                                        
+                      <div class="position">XXXX技能培訓班學員</div>                                    
+                    </div>                                
+                  </div> <!-- end card-body-->                            
+                </div> <!-- end card-->                        
+              </div>
+              <div>
+                <!-- Simple card -->                            
+                <div class="user_pic">                                
+                  <div class="img_mask m-auto d-flex justify-content-center">
+                    <img style="saturate(1)" src="https://college.itri.org.tw/api/TM_AttFile_Attachment_Download?attNo=64e3d25d-fb81-44a4-b90e-ed478c01d5c7" alt="程式開發人員 林先生-預覽圖">
+                  </div>                            
+                </div>                            
+                <div class="card">                                
+                  <div class="card-body">                                    
+                    <div class="con mt-4 mb-3 text_ellipsis_4">謝謝工研院的夥伴辦理這堂課程，課程本身與配套活動都令人滿意。</div>
+                    <div class="d-flex flex-column text-right mt-3">                                        
+                      <div class="name">程式開發人員 林先生</div>                                        
+                      <div class="position">XXXX技能培訓班學員</div>                                    
+                    </div>                                
+                  </div> <!-- end card-body-->                            
+                </div> <!-- end card-->                        
+              </div>
+              <div>
+                <!-- Simple card -->                            
+                <div class="user_pic">                                
+                  <div class="img_mask m-auto d-flex justify-content-center">
+                    <img style="saturate(1)" src="https://college.itri.org.tw/api/TM_AttFile_Attachment_Download?attNo=64e3d25d-fb81-44a4-b90e-ed478c01d5c7" alt="程式開發人員 林先生-預覽圖">
+                  </div>                            
+                </div>                            
+                <div class="card">                                
+                  <div class="card-body">                                    
+                    <div class="con mt-4 mb-3 text_ellipsis_4">謝謝工研院的夥伴辦理這堂課程，課程本身與配套活動都令人滿意。</div>
+                    <div class="d-flex flex-column text-right mt-3">                                        
+                      <div class="name">程式開發人員 林先生</div>                                        
+                      <div class="position">XXXX技能培訓班學員</div>                                    
+                    </div>                                
+                  </div> <!-- end card-body-->                            
+                </div> <!-- end card-->                        
+              </div>
             </section>
-        </div>
+          </div>
+        </section>
+        
+        <!-- 服務諮詢 -->
+        <section>
+          <h1 class="nz-title nz-primary my-4">服務諮詢</h1>
+        </section>
     </div>
 
 
-    <!-- 合作企業包班 -->
-    <!-- index_member begin -->
-    <div w3-include-html="index_member.html" id="nz-member" class="container my-5"></div>
-    <script>
-        includeHTML();
-    </script>
-    <!-- index_member end -->
+
     <!-- footer begin -->
     <footer w3-include-html="footer.html" class="mt-4"></footer>
     <script>
@@ -515,6 +606,12 @@
 
     <script>
       $(document).ready(function () {
+        $('#peo_recommend').slick({
+          dots: true,
+          infinite: true,
+          slidesToShow: 3,
+          slidesToScroll: 3
+        });
         loadMore(true);
         appendCourseListTableData();
       });
