@@ -662,6 +662,165 @@
         <!-- 服務諮詢 -->
         <section>
           <h1 class="nz-title nz-primary my-4">服務諮詢</h1>
+          <div class="row">
+            <div class="col-lg-8">
+              <div class="nz-contact-card">
+                <h4>留言</h4>
+                <form>
+                  <div class="form-group row">
+                    <label for="txtName" class="col-sm-3 col-form-label"><span class="nz-required">* </span>姓名</label>
+                    <div class="col-sm-9">
+                      <input type="text" id="txtName" class="form-control" placeholder="請輸入姓名">
+                      <!-- 當未填寫而送出時的提醒文字 -->
+                      <small class="nz-error-form">請輸入姓名</small>
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label for="txtEmail" class="col-sm-3 col-form-label"><span class="nz-required">* </span>Email</label>
+                    <div class="col-sm-9">
+                      <input type="email" id="txtEmail" class="form-control" placeholder="請輸入Email">
+                      <!-- <small class="nz-error-form">請輸入Email</small> -->
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label for="txtTitle" class="col-sm-3 col-form-label"><span class="nz-required">* </span>主題</label>
+                    <div class="col-sm-9">
+                      <input type="text" id="txtTitle" class="form-control" placeholder="請輸入主題">
+                      <!-- <small class="nz-error-form">請輸入主題</small> -->
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label for="ddlTypeList" class="col-sm-3 col-form-label"><span class="nz-required">* </span>類別</label>
+                    <div class="col-sm-9">
+                      <select class="form-control" id="ddlTypeList">
+                        <option selected>請選擇類別</option>
+                        <option>合作提案</option>
+                        <option>課程服務</option>
+                        <option>企業專班</option>
+                        <option>其他</option>
+                      </select>
+                      <!-- <small class="nz-error-form">請選擇類別</small> -->
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label for="txtLessonCon" class="col-sm-3 col-form-label"><span class="nz-required">* </span>課程</label>
+                    <div class="col-sm-9">
+                      <input type="text" id="txtLessonCon" class="form-control" placeholder="請輸入課程">
+                      <!-- <small class="nz-error-form">請輸入課程</small> -->
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label for="txtLessonConCode" class="col-sm-3 col-form-label"><span class="nz-required">*
+                      </span>課程代碼</label>
+                    <div class="col-sm-9">
+                      <input type="text" id="txtLessonConCode" class="form-control" placeholder="請輸入課程代碼">
+                      <!-- <small class="nz-error-form">請輸入課程代碼</small> -->
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label for="txtPhone" class="col-sm-3 col-form-label">電話</label>
+                    <div class="col-sm-9">
+                      <input type="text" id="txtPhone" class="form-control" placeholder="請輸入電話">
+                      <!-- <small class="nz-error-form">請輸入電話</small> -->
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label for="txtCellPhone" class="col-sm-3 col-form-label">手機</label>
+                    <div class="col-sm-9">
+                      <input type="text" id="txtCellPhone" class="form-control" placeholder="請輸入手機">
+                      <!-- <small class="nz-error-form">請輸入手機</small> -->
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label for="txtDesc" class="col-sm-3 col-form-label"><span class="nz-required">* </span>留言內容</label>
+                    <div class="col-sm-9">
+                      <textarea type="text" id="txtDesc" rows="4" maxlength="500" class="form-control"
+                        placeholder="請輸入500字以內的留言"></textarea>
+                        <div class="nz-text-count">
+                        <!-- <small class="nz-error-form">請輸入留言內容</small> -->
+                        <span id="over500Error" class="d-none nz-error-form">已到達上限</span>
+                        <span id="textCount">0</span>/500
+                      </div>
+                    </div>
+                  </div>
+                  <hr>
+                  <!-- 權益條文 -->
+                  <div>
+                    <div class="nz-terms">
+                      <span class="nz-required">* </span>
+                      為提供良好服務及滿足您的權益，我們必須蒐集、處理所提供之個人資料。 本院已建立嚴謹資安管理制度，在不違反蒐集目的之前提下，將使用於網際網路、電子郵件、書面、傳真與其他合法方式。
+                      未來若您覺得需要調整我們提供之相關服務，您可以來電要求查詢、補充、更正或停止服務。
+                    </div>
+                    <div class="form-group my-3">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="chkRead">
+                        <label class="form-check-label nz-warning" for="chkRead">
+                          我已閱讀以上相關權益及所有條文，並且同意。
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+    
+                  <!-- 驗證碼 -->
+                  <div class="form-group row align-items-center">
+                    <label for="txtDesc" class="col-md-3 col-form-label"><span class="nz-required">* </span>驗證碼</label>
+                    <div class="col-md-9 row align-items-center">
+                      <div class="col-md-3 col-4 my-2 text-left">
+                        <img id="imgCheck" class="nz-img-check"
+                          src="https://college.itri.org.tw/api/TM_WebUI_Captcha_Get?id=6b2dcba8-10e4-4831-aa39-0ecae1b3eb7d&amp;1663987356131"
+                          alt="驗證碼">
+                      </div>
+                      <div class="col-md-4 col-8 my-2">
+                        <input type="text" class="form-control" placeholder="驗證碼">
+                      </div>
+                      <div class="col-md-5 col-12 text-left">
+                        <div class="d-inline-block nz-refresh-check">重新產生驗證碼</div>
+                      </div>
+                    </div>
+                    <!-- 錯誤訊息提示 -->
+                    <!-- <small class="offset-md-3 col nz-error-form">請輸入算式的答案</small> -->
+                  </div>
+                  <div class="d-flex justify-content-center">
+                    <button type="submit" class="btn nz-lg-btn nz-btn-primary my-3">送出留言</button>
+                  </div>
+                </form>
+    
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="nz-contact-card">
+                <h4>聯絡窗口</h4>
+                <div class="nz-connection mt-md-1 mt-3">
+                  <div>張小姐</div>
+                  <div class="mt-1">
+                    <i class="fas fa-phone-alt"></i>
+                    <a class="nz-black ml-2" href="tel:03-5919333">03-5918044</a>
+                  </div>
+                  <div class="mt-1">
+                    <i class="fas fa-envelope"></i>
+                    <a class="nz-black ml-2" href="mailto:AngelC@itri.org.tw">AngelC@itri.org.tw</a>
+                  </div>
+                </div>
+                <hr>
+                <div class="nz-connection mt-md-1 mt-3">
+                  <div>張小姐</div>
+                  <div class="mt-1">
+                    <i class="fas fa-phone-alt"></i>
+                    <a class="nz-black ml-2" href="tel:03-5919333">03-5919333</a>
+                  </div>
+                  <div class="mt-1">
+                    <i class="fas fa-envelope"></i>
+                    <a class="nz-black ml-2" href="mailto:itri536598@itri.org.tw">itri536598@itri.org.tw</a>
+                  </div>
+                </div>
+              </div>
+              <!-- FB--------- -->
+              <div class="text-center my-4">
+                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FBiotech.Cosmetic&tabs=timeline&width=350&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=520641545846673" width="350" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+              </div>
+            </div>
+    
+          </div>
         </section>
     </div>
 
@@ -676,6 +835,7 @@
 
     <script>
       $(document).ready(function () {
+        // 延伸閱讀輪播初始化
         $('#furtherReading').slick({
           dots: true,
           infinite: true,
@@ -700,6 +860,7 @@
         });
         $('.slick-next').html('<i class="fas fa-chevron-right"></i>');
         $('.slick-prev').html('<i class="fas fa-chevron-left"></i>');
+
         // 學員證言輪播初始化
         $('#peo_recommend').slick({
           dots: true,
