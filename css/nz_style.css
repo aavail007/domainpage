@@ -1502,7 +1502,7 @@ td {
   height: 65px;
   width: 100%;
   padding-left: 90px;
-  border: 1px solid #bfbfbf;
+  border: 1px solid #dfdfdf;
 }
 
 #order_paper .icon_arrow {
@@ -1551,6 +1551,10 @@ td {
 
 #order_paper :focus-visible {
   outline: none;
+}
+
+.order_paper_title {
+  font-size: 1.5rem;
 }
 
 @media (max-width: 767px) {
