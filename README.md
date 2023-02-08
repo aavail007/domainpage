@@ -2,7 +2,7 @@
 ## 檔案說明
 本次檔案幾乎是從 https://college.itri.org.tw//domain_BIM/index.html copy 過來，以下列出本次調整有特別改過的地方
 - index.html: 領域專頁首頁
-  - 有暫時註解掉 `<script src="JsPage/index.js"></script>`，因為 js 裡面有 call API，我不在你們網域開發會有跨域 CORS error，因此切板時暫時註解掉。
+  - 有暫時註解掉 `<script src="JsPage/index.js"></script>`，因為 js 裡面有 call API，我不在你們網域開發會有跨域 CORS error，因此切版時暫時註解掉。
 - css
   - nz_style.css: 領域專頁客製 css
   - slick-theme.css : 主要是複製 https://college.itri.org.tw/nzschool/index.html 的檔案，然後有微調一點點。
