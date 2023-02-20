@@ -391,6 +391,150 @@ a .nz-black:hover {
   display: block;
 }
 
+/* ----- 主題 banner (產業學習網) ----- */
+.info_bg {
+  position: relative;
+  margin-top: -30px;
+  height: 300px;
+}
+
+.info_bg .black_shadow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #142729;
+  opacity: 0.4;
+}
+
+.info_mask {
+  position: absolute;
+  width: 100%;
+  height: 260px;
+  overflow: hidden;
+}
+
+.info_mask > img {
+  position: absolute;
+  width: 130%;
+  -webkit-filter: blur(8px);
+  filter: blur(8px);
+}
+
+.icon_dots img {
+  width: 16px;
+}
+
+.big_title_boss .icon_dots {
+  float: left;
+  margin-right: 20px;
+  margin: 10px 0;
+}
+
+.big_title_boss h2 {
+  text-align: left;
+  color: #97091F;
+  margin: 50px 0 30px;
+  font: bold 30px/36px "Helvetica Neue", Helvetica, Arial, STHeiti, "Microsoft JhengHei", 微軟正黑體, sans-serif;
+}
+
+.breadcrumb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+  margin-bottom: 1rem;
+  list-style: none;
+  background-color: transparent;
+  border-radius: .25rem
+}
+
+.breadcrumb-item {
+  color: #fff;
+}
+
+.breadcrumb-item a {
+  color: #fff;
+}
+
+.breadcrumb-item {
+  font-size: 1.2rem;
+}
+
+.breadcrumb-item+.breadcrumb-item {
+  padding-left: 0.5rem;
+}
+
+.breadcrumb-item.active {
+  color: #fff;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+  font-family: "Material Design Icons";
+  font-size: 1em;
+  line-height: 1.3
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+  float: left;
+  padding-right: .5rem;
+  color: #ced4da;
+  content: "󰅂"
+}
+
+.breadcrumb-item+.breadcrumb-item:hover::before {
+  text-decoration: underline
+}
+
+.breadcrumb-item+.breadcrumb-item:hover::before {
+  text-decoration: none
+}
+/*#region 內頁左方本頁標題*/
+@font-face {
+  font-family: "Material Design Icons";
+  src: url(./fonts/materialdesignicons-webfont.woff2);
+  src: url(./fonts/materialdesignicons-webfont.woff2) format("embedded-opentype"),url(./fonts/materialdesignicons-webfont.woff2) format("woff2"),url(./fonts/materialdesignicons-webfont.woff2) format("woff"),url(./fonts/materialdesignicons-webfont.woff2) format("truetype");
+  font-weight: 400;
+  font-style: normal
+}
+
+.insidePage_title {
+}
+
+.insidePage_title .big_title_boss .bigEnTitle {
+  -webkit-text-stroke: 0.4px #ffffff;
+}
+
+.insidePage_title .big_title_boss {
+}
+
+.insidePage_title .big_title_boss .secChi {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.insidePage_title .big_title_boss .secChi::after {
+  content: "";
+  border-bottom: 0.1rem solid #fff;
+  width: 87%;
+  position: absolute;
+  bottom: 5px;
+  margin-left: 11px;
+  opacity: 0.6;
+}
+
+.insidePage_title .page-title-box .page-title {
+  line-height: 1.6;
+}
+
+.insidePage_title .page-title-box .page-title-right {
+  margin-top: 0px;
+}
+/*#endregion 內頁左方本頁標題*/
+/* ----- 主題 banner (產業學習網)  END ----- */
+
 /* ----- banner 輪播圖 ----- */
 .nz-banner .carousel-inner {
   height: 380px;
@@ -1319,7 +1463,7 @@ td {
   border: #02afbb solid 1px;
   margin-bottom: -5px;
   background: #fff;
-  color: #02afbb ;
+  color: #02afbb;
 }
 
 .pow-card-nav.nav-tabs .nav-item.show .nav-link,

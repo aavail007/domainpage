@@ -35,6 +35,7 @@
     <!--輪播-->
     <link href="css/slick.min.css" rel="stylesheet" />
     <link href="css/slick-theme.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="js/slick.min.js"></script>
     <!-- 淨零永續學校通用 js -->
     <script src="js/nz-script.js"></script>
@@ -63,113 +64,57 @@
 </head>
 
 <body>
-    <!-- header begin -->
-    <header id="nzHeader" class="sticky-top">
-        <div class="container">
-            <div class="nz-nav nav justify-content-between align-items-center">
-                <a class="navbar-brand" href="index.html" title="回 生技醫藥領域 首頁">
-                    <img class="nz-logo" src="img/layout/logo.png" alt="生技醫藥領域" />
-                </a>
-                <div class="d-none d-lg-block">
-                    <ul class="nav justify-content-end align-items-center font-weight-bold">
-                     
-                        <li class="nz-gray">|</li>
-                        <li class="nz-nav-item">
-                            <a class="nz-primary d-flex" data-toggle="tooltip" data-placement="top" href="https://college.itri.org.tw/" target="_itriCollege_" title="前往 產業學習網(另開新頁)">
-                                <i class="nz-user-pc fas fa-graduation-cap"></i>產業學習網
-                            </a>
-                        </li>
-                       <!-- <li class="nz-gray">|</li>
-                        <li class="nz-nav-item" id="userbox">
-                            <a class="nz-primary d-flex" data-toggle="tooltip" data-placement="top" href="login.html" target="_self" title="前往 會員登入頁">
-                                <i class="nz-user-pc fas fa-user"></i>會員登入
-                            </a>
-                        </li>
-                        <li class="nz-gray">|</li>
-                        <li class="nz-nav-item userLogoutbox" style="display:none">
-                            <a id="aLogout" class="nz-primary active" href="#">
-                                <i class="nz-user-pc fas fa-sign-out-alt"></i>登出
-                            </a>
-                        </li>-->
-                    </ul>
-                </div>
-                <div class="nz-mobile-menu d-lg-none d-md-block">
-                    <button class="nz-menu-bar navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span id="openNav"><i class="fa fa-bars"></i></span>
-                        <span id="closeNav" class="d-none"><i class="fa fa-times"></i></span>
-                    </button>
-                </div>
-            </div>
-        </div>
-        <!-- 手機版 menu -->
-        <div class="collapse navbar-collapse nz-navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav nz-navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link d-flex align-items-center" href="#" target="_itriScmp_" title="前往 淨零整合服務平台(另開新頁)" style="display:none;">
-                        <!--<i class="nz-user fas fa-handshake"></i><span>淨零整合服務平台</span>-->
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link d-flex align-items-center" href="https://college.itri.org.tw/" target="_itriCollege_"
-                       title="前往 產業學習網(另開新頁)">
-                        <i class="nz-user fas fa-globe"></i>
-                        <span>產業學習網</span>
-                    </a>
-                </li>
-                <li class="nav-item" id="userbox-xs">
-                    <a class="nav-link d-flex align-items-center" href="login.html" title="前往 會員登入頁">
-                        <i class="nz-user fas fa-user"></i>
-                        <span>會員登入</span>
-                    </a>
-                </li>
-                <li class="nav-item userLogoutbox" style="display:none">
-                    <a id="aLogout" class="nav-link d-flex align-items-center" href="#" title="登出">
-                        <i class="nz-user fas fa-sign-out-alt"></i>登出
-                    </a>
-                </li>
-                <div w3-include-html="header.html"></div>
-            </ul>
-        </div>
-        <div w3-include-html="menu.html"></div>
-        <script>
-            includeHTML();
-        </script>
-    </header>
-    <!-- header end -->
-    <div class="container mb-5">
-        <!-- 輪播、焦點訊息 -->
-        <section>
-          <div class="row my-3 my-md-5">
-              <div class="col-md-4">
-                <h1 class="nz-title nz-primary mb-4">生技醫藥領域</h1>
-                <div id="divInfo1Box" class="nz-desc">
-                  工研院產業學院-生技醫藥領域提供您最專業的培訓，完整規劃醫藥產業、醫療器材產業以及應用生技產業所需具備之專業技術培訓。此外，工研院獨家打造生技醫藥模組化學習地圖，帶領您完成基礎到進階的學習規劃，並且提供多元學習模式，全數位課程、線上直播課程與實體課程，滿足您不同的學習需求，提供您最棒的學習體驗。
-                </div>
-            </div>
-              <div class="nz-banner col-md-8 mb-5">
-                  <!-- index_banner begin -->
-                  <div w3-include-html="index_banner.html" id="bannerCarousel" class="nz-carousel carousel slide carousel-fade" data-ride="carousel" data-interval="5000"></div>
-                  <script>
-                      includeHTML();
-                  </script>
-                  <!-- index_banner end -->
+    <!-- 主題 -->
+    <div class="info_bg d-flex align-items-center">
+      <div class="info_mask d-flex justify-content-center align-items-center">
+          <img class="" src="https://college.itri.org.tw/Images/H002/bg_programlist.jpg" alt="背景圖">
+          <div class="black_shadow"></div>
+      </div>
+      <div class="container px-5">
+          <div class="row">
+              <div class="insidePage_title col-12">
+                  <div class="row">
+                      <div class="big_title_boss col-12">
+                          <div class="row">
+                              <div class="col-12">
+                                  
+                                  <div class="page_bread">
+                                      <div class="page-title-box">
+                                          <div class="row">
+                                              <i class="icon_dots mr-2"> <img src="https://college.itri.org.tw/Images/H002/icon_title_dot.png" alt="標題的icon"></i>
+                                              <h2 class="secChi text-white col" langkey="系列學程">生技醫藥</h2>
+                                              <div class="page-title-right col-auto">
+                                                  <ol class="breadcrumb m-0">
+                                                      <li class="breadcrumb-item"><a href="/Home/Default" title="回首頁" langkey="首頁">首頁</a></li>
+                                                      <li class="breadcrumb-item" langkey="系列學程">分類</li>
+                                                      <li id="liTitle" class="breadcrumb-item active">生技醫藥</li>
+                                                  </ol>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
               </div>
           </div>
-        </section>
+      </div>
+    </div>
+    <div class="container mb-5">
         <section>
             <!-- Tab 卡片 -->
             <div class="my-5">
-              <h1 class="nz-title nz-primary my-4">課程目錄</h1>
+              <h1 class="nz-title nz-primary my-4"><i class="icon_dots mr-2"> <img src="https://college.itri.org.tw/Images/H002/icon_title_dot.png" alt="標題的icon"></i>目錄</h1>
               <ul class="pow-card-nav nav nav-tabs" id="cardTab" role="tablist">
                 <li class="nav-item">
-                  <a class="nav-link active" id="card-tab-1" data-toggle="tab" href="#card-1" role="tab" aria-controls="card-1" aria-selected="true">智慧醫療影像辨識技術</a>
+                  <a class="nav-link active" id="card-tab-1" data-toggle="tab" href="#card-1" role="tab" aria-controls="card-1" aria-selected="true">藥品</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" id="card-tab-2" data-toggle="tab" href="#card-2" role="tab" aria-controls="card-2" aria-selected="false">精準健康產品開發/GMP品質管制系統</a>
+                  <a class="nav-link" id="card-tab-2" data-toggle="tab" href="#card-2" role="tab" aria-controls="card-2" aria-selected="false">醫療器材</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" id="card-tab-3" data-toggle="tab" href="#card-3" role="tab" aria-controls="card-3" aria-selected="false">數位自學課程</a>
+                  <a class="nav-link" id="card-tab-3" data-toggle="tab" href="#card-3" role="tab" aria-controls="card-3" aria-selected="false">再生醫療/細胞治療開發</a>
                 </li>
               </ul>
               <div class="tab-content" id="cardTabContent">
@@ -179,9 +124,6 @@
                     <div class="col-md-6 col-lg-4 my-4">
                       <div class="pow-card">
                         <a href="#">
-                          <div class="pow-card-top-img">
-                            <img src="img/example/img-1.JPG">
-                          </div>
                           <div class="pow-card-p">
                             <h3 class="nz-black nz-overflow-ellipsis">企業碳足跡分析管理師認證班</h3>
                             <p class="pow-overflow-ellipsis"> <!---調整 css .pow-overflow-ellipsis 的 webkit-line-clamp ，可控制最多顯示行數，目前設定 10-->
@@ -214,7 +156,7 @@
                             <p class="pow-overflow-ellipsis"> <!---調整 css .pow-overflow-ellipsis 的 webkit-line-clamp ，可控制最多顯示行數，目前設定 10-->
                               根據聯合國IPCC《第六次氣候變遷評估報告（AR6）》分析指出：未來20年內，全球平均氣溫將上升1.5℃。面對全球暖化的嚴峻挑戰，我國政府著眼於環境永續發展，及代工出口導向的經濟戰略，與全球136個國家一同推動淨零碳排轉型，預計在2050年達成目標。
                             </p>
-                            <div class="pow-card-date">每年3-5月</div>
+                            <div class="pow-card-date">2023/02/10~2023/03/04</div>
                           </div>
                         </a>
                         <div class="pow-card-btn-div">
