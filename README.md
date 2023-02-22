@@ -8,13 +8,15 @@
   - slick-theme.css : 主要是複製 https://college.itri.org.tw/nzschool/index.html 的檔案，然後有微調一點點。
   - fonts
     - slick.woff :從淨零永續學校抓來的，用在 slick 輪播圖
+    - materialdesignicons-webfont.woff2: 從產業學習網抓來的，用在主題 banner 右方的路徑箭頭
 - img
   - layout
     - icon_mail.png : 訂閱電子報的信箱圖片(從產業學習網抓來的)
 ## 檔案結構
 domain                                
 ├─ css                                
-│  ├─ fonts                           
+│  ├─ fonts    
+│  │  ├─ materialdesignicons-webfont.woff2                         
 │  │  └─ slick.woff                   
 │  ├─ plugin                          
 │  │  ├─ fontawesome-free-5.15.4-web  
