@@ -16,7 +16,7 @@ header {
 }
 
 .nz-bg-primary {
-  background-color: #649e68 !important;
+  background-color: #02afbb !important;
 }
 
 .nz-bg-danger {
@@ -491,6 +491,7 @@ a .nz-black:hover {
   text-decoration: none
 }
 /*#region 內頁左方本頁標題*/
+
 @font-face {
   font-family: "Material Design Icons";
   src: url(./fonts/materialdesignicons-webfont.woff2);
@@ -499,14 +500,8 @@ a .nz-black:hover {
   font-style: normal
 }
 
-.insidePage_title {
-}
-
 .insidePage_title .big_title_boss .bigEnTitle {
   -webkit-text-stroke: 0.4px #ffffff;
-}
-
-.insidePage_title .big_title_boss {
 }
 
 .insidePage_title .big_title_boss .secChi {
@@ -531,6 +526,43 @@ a .nz-black:hover {
 
 .insidePage_title .page-title-box .page-title-right {
   margin-top: 0px;
+}
+
+@media(max-width: 991px) {
+  .info_mask>img {
+      width:auto;
+      height: 100%;
+  }
+
+  #info_boss .img_mask {
+      height: auto
+  }
+
+  .searchBarBox {
+      width: 95%
+  }
+}
+
+@media (max-width: 767.98px) {
+  .page-title-box .page-title-right {
+      display: flex !important;
+      width: 100%;
+  }
+
+  .page-title-box .breadcrumb {
+      display: flex !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .page-title-box .page-title-right {
+      width: 100%;
+      padding-left: 12px;
+  }
+
+  .page-title-box .breadcrumb {
+      display: flex !important;
+  }
 }
 /*#endregion 內頁左方本頁標題*/
 /* ----- 主題 banner (產業學習網)  END ----- */
@@ -915,6 +947,10 @@ a.nz-a-white:active {
 
 .nz-table-title a:active {
   color: #36b2b1;
+}
+
+.i-star {
+  color: #ffd100;
 }
 
 /* ---------- 分頁 ---------- */
@@ -1354,6 +1390,17 @@ td {
   padding: 2px 15px;
 }
 
+
+/* -------------- 廣告 ---------------*/
+.ad-img {
+  height: 230px;
+  padding-top: 5px;
+}
+
+.ad-img img{
+  border-radius: 5px;
+}
+
 @media (max-width: 767.98px) {
   /* --------- table rwd --------- */
   .nz-rwd-table th,
@@ -1480,6 +1527,7 @@ td {
   overflow: hidden;
   background-color: #fff;
   box-shadow: 0 6px 27px rgb(0 0 0 / 8%);
+  margin: 1.5rem;
 }
 
 .pow-card-top-img {
@@ -1820,6 +1868,11 @@ td {
     width: 30px;
     height: 30px;
   }
+
+  /*  廣告 */
+  .ad-img {
+    height: 180px;
+  }
 }
 
 /* RWD */
@@ -1832,6 +1885,11 @@ td {
 
   .nz-login-card p {
     font-size: 14px;
+  }
+
+  /*  廣告 */
+  .ad-img {
+    height: 150px;
   }
 }
 @media (max-width: 410px) {
