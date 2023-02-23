@@ -1574,9 +1574,14 @@ td {
   color: #898989;
 }
 
-.pow-card-date {
-  font-size: 12px;
+a.pow-card-date {
+  font-size: 14px;
   color: #a1a1a1;
+}
+
+a.pow-card-date:hover {
+  color: #119796;
+  text-decoration: underline;
 }
 
 .pow-card-btn {
