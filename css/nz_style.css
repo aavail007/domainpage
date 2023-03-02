@@ -1553,16 +1553,28 @@ td {
   padding: 15px;
   color: #898989;
 }
-.pow-card-p h3 {
-  font-size: 18px;
-  font-weight: 800;
-  color: #555555;
-}
 
 .pow-card-btn-div {
   display: flex;
   justify-content: space-between;
   padding: 0 15px 15px 15px;
+}
+
+.card-title-h {
+  font-size: 18px;
+  font-weight: 800;
+  color: #555555;
+  min-height: 44px;
+  width: calc(100% - 35px);
+}
+
+.new-notify {
+  position: relative;
+  width: 35px;
+  display: inline-block;
+  font-size: 22px;
+  text-align: right;
+  line-height: 0px;
 }
 
 .pow-overflow-ellipsis {
