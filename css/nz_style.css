@@ -822,6 +822,10 @@ footer {
   font-size: 16px;
 }
 
+.connection-border {
+  border-right: 1px solid #dee2e6;
+}
+
 .nz-vertical-line {
   width: 1px;
   height: 100%;
@@ -1369,7 +1373,7 @@ td {
   box-shadow: 6px 8px 27px rgb(0 0 0 / 10%);
   border-radius: 5px 5px 11px 11px;
   background: #ffffff;
-  padding: 20px;
+  padding: 30px;
   margin: 5px 0;
   color: #555555;
 }
@@ -1723,6 +1727,7 @@ a.pow-card-date:hover {
   border-radius: 5px;
   font-size: 0.9rem;
   font-weight: bold;
+  top: 10px;
 }
 
 #order_paper button.btn-primary:hover {
@@ -1756,6 +1761,7 @@ a.pow-card-date:hover {
 #order_paper .paper_bg {
   background-color: #f1f4fb;
   padding: 30px 30px;
+  border-radius: 11px;
 }
 
 #order_paper :focus-visible {
@@ -1786,6 +1792,12 @@ a.pow-card-date:hover {
     border-radius: 0;
     font-size: 0.9rem;
     font-weight: bold;
+  }
+
+  .connection-border {
+    border-right: none;
+    border-bottom: 1px solid #dee2e6;
+    padding-bottom: 15px;
   }
 }
 /*#endregion 訂閱電子報*/
